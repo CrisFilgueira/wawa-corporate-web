@@ -24,7 +24,7 @@ const Contacto = () => {
               </div>
 
               <div className="space-y-8 animate-fade-up animation-delay-200 mt-16 md:mt-32">
-                <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-none pr-8">
+                <p className="text-xl md:text-2xl leading-relaxed text-muted-foreground  max-w-none pr-8">
                   Si necesitas recuperar tiempo y foco para hacer crecer tu negocio, contacta con nosotros en el correo {' '}
                   <a href="mailto:hola@somoswawa.com" className="text-foreground underline underline-offset-4 hover:opacity-70 transition-opacity">
                     hola@somoswawa.com
@@ -35,7 +35,7 @@ const Contacto = () => {
                   </a>
                 </p>
 
-                <p className="text-lg md:text-xl font-medium">
+                <p className="text-xl md:text-2xl leading-relaxed font-medium">
                   Estudio de automatizaciones, IA y gestión operativa.
                 </p>
               </div>
