@@ -80,7 +80,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`group/link relative flex items-center gap-2 text-lg uppercase tracking-[0.15em] font-bold transition-all duration-300 hover:opacity-100 ${textColor} ${isActive ? 'opacity-100' : 'opacity-70'
+                className={`group/link relative flex items-center gap-2 text-sm uppercase tracking-[0.15em] font-bold transition-all duration-300 hover:opacity-100 ${textColor} ${isActive ? 'opacity-100' : 'opacity-70'
                   } font-sans`}
               >
                 {/* Active state dot */}
@@ -129,7 +129,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-2xl uppercase tracking-[0.15em] font-bold transition-all duration-300 ${isActive ? 'text-foreground opacity-100' : 'text-foreground/70 hover:opacity-100'
+                className={`text-lg uppercase tracking-[0.15em] font-bold transition-all duration-300 ${isActive ? 'text-foreground opacity-100' : 'text-foreground/70 hover:opacity-100'
                   } font-sans`}
               >
                 {link.label}

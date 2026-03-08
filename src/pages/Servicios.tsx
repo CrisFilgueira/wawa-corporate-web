@@ -54,7 +54,7 @@ const Servicios = () => {
                         AUTOMATIZACIÓN
                       </h2>
                     </div>
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
                       Donde la tecnología trabaja por ti<br />
                       Liberamos horas cada semana para que te enfoques en lo importante
                     </p>
@@ -69,12 +69,12 @@ const Servicios = () => {
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
                   <div className="space-y-6">
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black ">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Automatizamos las tareas repetitivas de tu negocio, ahorrando tiempo, dinero y recursos. Usamos herramientas como n8n para crear flujos de trabajo eficientes y personalizados, adaptados a tus necesidades.
                     </p>
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ CAMBIA EN TU DÍA A DÍA?</p>
-                      <ul className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
+                      <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
                         <li>→ Dejas de perder tiempo en tareas que una máquina puede hacer por ti.</li>
                         <li>→ Reduces errores humanos.</li>
                         <li>→ Recuperas horas cada semana para lo que realmente aporta valor.</li>
@@ -83,7 +83,7 @@ const Servicios = () => {
                     </div>
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ AUTOMATIZAR?</p>
-                      <ul className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
+                      <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
                         <li>→ Integración y sincronización entre herramientas (CRM, email, calendarios).</li>
                         <li>→ Procesos administrativos repetitivos.</li>
                         <li>→ Generación automática de reportes.</li>
@@ -107,7 +107,7 @@ const Servicios = () => {
                         IA Y CHATBOTS
                       </h2>
                     </div>
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
                       Atención inteligente que nunca duerme<br />
                       Chatbots con IA que conversan, resuelven y liberan tu tiempo
                     </p>
@@ -122,12 +122,12 @@ const Servicios = () => {
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
                   <div className="space-y-6">
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black ">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Creamos chatbots con inteligencia artificial que se integran en tu web, tu app o tus plataformas de mensajería como el correo electrónico o Whatsapp. No son bots rígidos con respuestas prefijadas. Son conversaciones naturales, automatizadas e inteligentes que atienden a tus clientes 24/7. Responden consultas. Ofrecen información. Realizan acciones. Generan contenido. Todo sin que tú tengas que estar disponible.
                     </p>
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ CAMBIA CUANDO TIENES UN BOT INTELIGENTE?</p>
-                      <ul className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
+                      <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
                         <li>→ Tus clientes tienen respuestas inmediatas, a cualquier hora mejorando la experiencia de usuario y la accesibilidad de tu servicio sin aumentar tu carga de trabajo.</li>
                         <li>→ Reduces drásticamente el tiempo que dedicas a consultas repetitivas.</li>
                         <li>→ Tu negocio está disponible 24/7 sin que tú tengas que estarlo.</li>
@@ -136,7 +136,7 @@ const Servicios = () => {
                     </div>
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ PUEDEN HACER?</p>
-                      <ul className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
+                      <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
                         <li>→ Responder preguntas frecuentes de forma natural y contextual.</li>
                         <li>→ Captar y calificar leads automáticamente.</li>
                         <li>→ Hacer seguimiento inteligente de esos leads.</li>
@@ -162,7 +162,7 @@ const Servicios = () => {
                         DISEÑO WEB Y DESARROLLO VIBE CODING
                       </h2>
                     </div>
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
                       Webs funcionales creadas con IA<br />
                       Diseño personalizado con desarrollo inteligente
                     </p>
@@ -177,10 +177,10 @@ const Servicios = () => {
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
                   <div className="space-y-6">
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black ">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Diseñamos experiencias digitales con estrategia que transmitan quién eres, qué haces y por qué eres la opción correcta.
                     </p>
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light  text-black">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light  text-black">
                       Una web con intención. Que conecte desde el primer clic. Que trabaje por ti, incluso cuando tú no estás. Creamos tu web usando vibe coding: desarrollo conversacional con IA que acelera el proceso sin sacrificar personalización ni calidad. Tú nos cuentas tu proyecto, nosotros lo convertimos en una presencia digital que funciona, comunica y vende.
                     </p>
 
@@ -190,7 +190,7 @@ const Servicios = () => {
                         <AccordionItem value="estrategia-web" className="border-b border-black py-4">
                           <AccordionTrigger className="hover:no-underline py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
-                              <h4 className="text-xl md:text-2xl leading-relaxed font-sans font-medium">01. Estrategia web</h4>
+                              <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">01. Estrategia web</h4>
                               <div className="flex shrink-0 ml-4">
                                 <Plus className="w-5 h-5 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
                                 <Minus className="w-5 h-5 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
@@ -198,7 +198,7 @@ const Servicios = () => {
                             </div>
                           </AccordionTrigger>
                           <AccordionContent className="pt-2 pb-6">
-                            <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  bg-muted/30 p-3 border-l-2 border-primary">
+                            <p className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  bg-muted/30 p-3 border-l-2 border-primary">
                               Antes de hacer ningún diseño, necesitamos entender tu proyecto. ¿Para qué necesitas la web? ¿Qué quieres que haga por ti? ¿Qué necesita tu cliente para quedarse? Analizamos tu contenido, definimos objetivos claros y diseñamos la arquitectura de información que mejor se adapte. Si lo necesitas, creamos el mapa web (estructura de secciones) y wireframes (esquemas visuales de cada página que muestran el funcionamiento interno). Todo pensado para que tengas claridad desde el principio.
                             </p>
                           </AccordionContent>
@@ -207,7 +207,7 @@ const Servicios = () => {
                         <AccordionItem value="diseno" className="border-b border-black py-4">
                           <AccordionTrigger className="hover:no-underline py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
-                              <h4 className="text-xl md:text-2xl leading-relaxed font-sans font-medium">02. Diseño</h4>
+                              <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">02. Diseño</h4>
                               <div className="flex shrink-0 ml-4">
                                 <Plus className="w-5 h-5 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
                                 <Minus className="w-5 h-5 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
@@ -215,7 +215,7 @@ const Servicios = () => {
                             </div>
                           </AccordionTrigger>
                           <AccordionContent className="pt-2 pb-6">
-                            <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  bg-muted/30 p-3 border-l-2 border-primary">
+                            <p className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  bg-muted/30 p-3 border-l-2 border-primary">
                               Con la estrategia definida, diseñamos tu web. Creamos un prototipo 100% adaptado a tu contenido, con una propuesta estética alineada con tu identidad visual. Diseño limpio, funcional, que comunica.
                             </p>
                           </AccordionContent>
@@ -224,7 +224,7 @@ const Servicios = () => {
                         <AccordionItem value="desarrollo" className="border-b border-black py-4">
                           <AccordionTrigger className="hover:no-underline py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
-                              <h4 className="text-xl md:text-2xl leading-relaxed font-sans font-medium">03. Desarrollo vibe coding</h4>
+                              <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">03. Desarrollo vibe coding</h4>
                               <div className="flex shrink-0 ml-4">
                                 <Plus className="w-5 h-5 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
                                 <Minus className="w-5 h-5 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
@@ -232,7 +232,7 @@ const Servicios = () => {
                             </div>
                           </AccordionTrigger>
                           <AccordionContent className="pt-2 pb-6">
-                            <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  bg-muted/30 p-3 border-l-2 border-primary">
+                            <p className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  bg-muted/30 p-3 border-l-2 border-primary">
                               Con el diseño aprobado, pasamos a la parte técnica. Aquí entra el vibe coding: usamos IA para acelerar el desarrollo sin perder personalización. Integramos todo lo que tu web necesite: formularios, enlaces a redes sociales, automatizaciones, conexiones con tus herramientas.
                             </p>
                           </AccordionContent>
@@ -241,7 +241,7 @@ const Servicios = () => {
                         <AccordionItem value="entrega" className="border-b border-black py-4">
                           <AccordionTrigger className="hover:no-underline py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
-                              <h4 className="text-xl md:text-2xl leading-relaxed font-sans font-medium">04. Entrega</h4>
+                              <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">04. Entrega</h4>
                               <div className="flex shrink-0 ml-4">
                                 <Plus className="w-5 h-5 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
                                 <Minus className="w-5 h-5 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
@@ -249,7 +249,7 @@ const Servicios = () => {
                             </div>
                           </AccordionTrigger>
                           <AccordionContent className="pt-2 pb-6">
-                            <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground ">
+                            <p className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground ">
                               Una vez lista, tu web pasa a entorno real.
                             </p>
                           </AccordionContent>
@@ -258,7 +258,7 @@ const Servicios = () => {
                         <AccordionItem value="que-incluye" className="border-b border-black py-4">
                           <AccordionTrigger className="hover:no-underline py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
-                              <h4 className="text-xl md:text-2xl leading-relaxed font-sans font-medium">Qué incluye</h4>
+                              <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">Qué incluye</h4>
                               <div className="flex shrink-0 ml-4">
                                 <Plus className="w-5 h-5 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
                                 <Minus className="w-5 h-5 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
@@ -266,7 +266,7 @@ const Servicios = () => {
                             </div>
                           </AccordionTrigger>
                           <AccordionContent className="pt-2 pb-6">
-                            <ul className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
+                            <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
                               <li>→ Estrategia y arquitectura de información.</li>
                               <li>→ Diseño visual personalizado.</li>
                               <li>→ Desarrollo con vibe coding.</li>
@@ -294,7 +294,7 @@ const Servicios = () => {
                         GESTIÓN OPERATIVA
                       </h2>
                     </div>
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black  max-w-2xl mt-2">
                       Tu equipo cuando lo necesitas<br />
                       Coordinación y ejecución de la operativa diaria
                     </p>
@@ -309,18 +309,18 @@ const Servicios = () => {
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
                   <div className="space-y-6">
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black ">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Nos ocupamos de la organización, coordinación y ejecución de tareas clave para que la operativa diaria de tu negocio avance sin fricción.
                     </p>
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black ">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       No trabajamos desde la acumulación de tareas, sino desde la comprensión del conjunto.
                     </p>
-                    <p className="text-xl md:text-2xl leading-relaxed font-sans font-light text-black ">
+                    <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Entendemos tu negocio a fondo y actuamos como parte de tu equipo, con responsabilidad y visión práctica.
                     </p>
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">En qué intervenimos:</p>
-                      <ul className="text-xl md:text-2xl leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
+                      <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-muted-foreground  space-y-1">
                         <li>→ Coordinación y seguimiento de procesos diarios.</li>
                         <li>→ Organización de lanzamientos y eventos.</li>
                         <li>→ Gestión operativa en fases de crecimiento.</li>
@@ -344,16 +344,16 @@ const Servicios = () => {
             Lo que conecta todos nuestros servicios
           </h2>
           <div className="space-y-6 md:space-y-8 text-center max-w-2xl mx-auto">
-            <p className="text-xl md:text-2xl leading-relaxed font-sans font-light tracking-wide  text-foreground/80 text-balance">
+            <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide  text-foreground/80 text-balance">
               En WAWA todo responde a un mismo principio:<br />El crecimiento sostenible requiere arquitectura.
             </p>
-            <p className="text-xl md:text-2xl leading-relaxed font-sans font-light tracking-wide  text-foreground/80 text-balance">
+            <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide  text-foreground/80 text-balance">
               No implementamos tecnología de forma aislada.<br />Diseñamos sistemas donde automatización, datos e inteligencia artificial trabajan como una estructura integrada.
             </p>
-            <p className="text-xl md:text-2xl leading-relaxed font-sans font-light tracking-wide  text-foreground/80 text-balance">
+            <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide  text-foreground/80 text-balance">
               Conectamos procesos clave, estructuramos el ciclo comercial y operativo, y desplegamos sistemas preparados para absorber más volumen sin multiplicar complejidad.
             </p>
-            <p className="text-xl md:text-2xl leading-relaxed font-sans font-medium tracking-wide  text-foreground/90 text-balance mt-8">
+            <p className="text-base md:text-lg leading-relaxed font-sans font-medium tracking-wide  text-foreground/90 text-balance mt-8">
               No añadimos herramientas.<br />Rediseñamos el sistema que sostiene tu crecimiento.
             </p>
             <div className="pt-12 md:pt-16 text-center">

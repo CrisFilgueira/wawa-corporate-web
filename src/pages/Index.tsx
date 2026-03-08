@@ -117,7 +117,7 @@ const Index = () => {
           <div className="md:col-span-4 flex flex-col justify-end space-y-4 animate-fade-up animation-delay-200">
             <div className="w-12 h-0.5 bg-white/60 mb-2" />
             <p className="text-xs uppercase tracking-[0.2em] font-sans font-bold text-white/80">Somos Wawa</p>
-            <p className="text-xl md:text-2xl leading-relaxed font-sans text-white/90">
+            <p className="text-base md:text-lg leading-relaxed font-sans text-white/90">
               En Wawa diseñamos e implementamos sistemas de automatización e IA que absorben el crecimiento de tu negocio: ventas, operaciones y soporte, para que puedas escalar sin depender de tareas manuales ni añadir fricción operativa.
             </p>
           </div>
@@ -132,7 +132,7 @@ const Index = () => {
               <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-6 text-balance">
                 Escalar sin sistema multiplica complejidad.
               </h2>
-              <div className="space-y-4 text-xl md:text-2xl leading-relaxed font-sans font-light tracking-wide  text-foreground/80">
+              <div className="space-y-4 text-base md:text-lg leading-relaxed font-sans font-light tracking-wide  text-foreground/80">
                 <p>El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
                 <p>Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
                 <p>El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
@@ -140,7 +140,7 @@ const Index = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-x-12 gap-y-8 mt-12">
-              <ul className="space-y-6 text-xl md:text-2xl leading-relaxed font-sans text-foreground/80 list-none p-0">
+              <ul className="space-y-6 text-base md:text-lg leading-relaxed font-sans text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
                   <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">01</span>
                   <span className="leading-relaxed"><strong>Gestión de leads estructurada:</strong> Cada oportunidad sigue un flujo definido, sin pérdidas ni cuellos de botella manuales.</span>
@@ -150,7 +150,7 @@ const Index = () => {
                   <span className="leading-relaxed"><strong>Procesos preparados para escalar:</strong> Las tareas operativas no crecen al mismo ritmo que las ventas.</span>
                 </li>
               </ul>
-              <ul className="space-y-6 text-xl md:text-2xl leading-relaxed font-sans text-foreground/80 list-none p-0">
+              <ul className="space-y-6 text-base md:text-lg leading-relaxed font-sans text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
                   <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">03</span>
                   <span className="leading-relaxed"><strong>Facturación y onboarding integrados:</strong> La entrada de nuevos clientes activa automáticamente la operación.</span>
@@ -183,18 +183,18 @@ const Index = () => {
                 Rediseñamos la arquitectura de tu crecimiento
               </h2>
 
-              <ul className="space-y-6 text-xl md:text-2xl leading-relaxed font-sans text-foreground/80 border-l px-6 border-black/10 text-balance list-none py-2 pb-8">
+              <ul className="space-y-6 text-base md:text-lg leading-relaxed font-sans text-foreground/80 border-l px-6 border-black/10 text-balance list-none py-2 pb-8">
                 <li className="space-y-1">
                   <strong className="text-foreground font-medium block">Automatizamos el ciclo comercial y operativo.</strong>
-                  <span className="text-xl md:text-2xl leading-relaxed opacity-80 block pt-1">Integramos cada paso del cliente, desde la captación y atención al lead hasta el cierre.</span>
+                  <span className="text-base md:text-lg leading-relaxed opacity-80 block pt-1">Integramos cada paso del cliente, desde la captación y atención al lead hasta el cierre.</span>
                 </li>
                 <li className="space-y-1 mt-6">
                   <strong className="text-foreground font-medium block">Implementamos sistemas autónomos.</strong>
-                  <span className="text-xl md:text-2xl leading-relaxed opacity-80 block pt-1">La tecnología ejecuta el volumen; tú supervisas la estrategia.</span>
+                  <span className="text-base md:text-lg leading-relaxed opacity-80 block pt-1">La tecnología ejecuta el volumen; tú supervisas la estrategia.</span>
                 </li>
               </ul>
 
-              <p className="text-xl md:text-2xl leading-relaxed font-sans tracking-wide  text-foreground/90 text-balance mt-4">
+              <p className="text-base md:text-lg leading-relaxed font-sans tracking-wide  text-foreground/90 text-balance mt-4">
                 <strong>Resultado:</strong> un negocio digital preparado para aumentar volumen sin que la complejidad interna crezca al mismo ritmo.
               </p>
             </div>
@@ -287,7 +287,7 @@ const Index = () => {
                         </div>
                       </div>
                     </AccordionTrigger>
-                    <AccordionContent className="text-white text-xl md:text-2xl leading-relaxed font-sans font-light tracking-wide  text-balance pt-6 pb-2 max-w-3xl">
+                    <AccordionContent className="text-white text-base md:text-lg leading-relaxed font-sans font-light tracking-wide  text-balance pt-6 pb-2 max-w-3xl">
                       <div className="mb-6">{service.desc}</div>
                       <Link
                         to="/servicios"
