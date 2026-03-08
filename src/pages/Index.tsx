@@ -129,18 +129,18 @@ const Index = () => {
         <div className="container px-6 md:px-12">
           <div className="max-w-5xl mx-auto space-y-12">
             <div className="w-full">
-              <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-6 text-balance">
+              <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
                 Escalar sin sistema multiplica complejidad.
               </h2>
-              <div className="space-y-4 text-base md:text-lg leading-relaxed font-sans font-light tracking-wide  text-foreground/80">
-                <p>El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
-                <p>Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
-                <p>El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
+              <div className="space-y-6 text-foreground/80">
+                <p className="text-lg md:text-xl leading-relaxed font-sans font-normal tracking-wide">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pt-2">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pb-4">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
               </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-x-12 gap-y-8 mt-12">
-              <ul className="space-y-6 text-base md:text-lg leading-relaxed font-sans text-foreground/80 list-none p-0">
+              <ul className="space-y-8 text-sm md:text-base leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
                   <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">01</span>
                   <span className="leading-relaxed"><strong>Gestión de leads estructurada:</strong> Cada oportunidad sigue un flujo definido, sin pérdidas ni cuellos de botella manuales.</span>
@@ -150,7 +150,7 @@ const Index = () => {
                   <span className="leading-relaxed"><strong>Procesos preparados para escalar:</strong> Las tareas operativas no crecen al mismo ritmo que las ventas.</span>
                 </li>
               </ul>
-              <ul className="space-y-6 text-base md:text-lg leading-relaxed font-sans text-foreground/80 list-none p-0">
+              <ul className="space-y-8 text-sm md:text-base leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
                   <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">03</span>
                   <span className="leading-relaxed"><strong>Facturación y onboarding integrados:</strong> La entrada de nuevos clientes activa automáticamente la operación.</span>
@@ -232,7 +232,7 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col justify-start min-h-[85vh] p-6 pt-32 md:p-12 md:pt-32 lg:p-16 lg:pt-32 bg-black text-white">
-            <div className="w-full max-w-2xl">
+            <div className="w-full max-w-xl">
               <div className="mb-16">
                 <h2 className="text-lg uppercase tracking-[0.2em] font-sans font-light text-white mb-4">Servicios</h2>
                 <div className="w-full h-0.5 bg-white/40" />
@@ -278,7 +278,7 @@ const Index = () => {
                   <AccordionItem key={service.id} value={service.id} className="border-none">
                     <AccordionTrigger className="text-left py-0 hover:no-underline group transition-all">
                       <div className="flex items-start justify-between w-full">
-                        <span className="text-4xl md:text-6xl font-sans font-medium text-white uppercase tracking-wide leading-tight group-hover:font-bold transition-all duration-300 pr-8">
+                        <span className="text-4xl md:text-5xl font-sans font-medium text-white uppercase tracking-normal leading-[1.1] group-hover:font-bold transition-all duration-300 pr-4">
                           {service.title}
                         </span>
                         <div className="flex shrink-0 mt-1">
