@@ -1,7 +1,5 @@
 # Wawa Web 3.0 | Desarrollo Web & Diseño UX/UI
 
-![Wawa Banner](src/assets/contacto-minimalist.webp)
-
 **Wawa** es un estudio de arquitectura operativa e Inteligencia Artificial para negocios digitales. Este repositorio contiene el código fuente de su web corporativa, un proyecto integral desarrollado de principio a fin abarcando desde la concepción del diseño visual hasta la programación frontend y el despliegue final.
 
 ## 👩‍💻 Sobre la Autora: Diseño UX/UI y Desarrollo Web
