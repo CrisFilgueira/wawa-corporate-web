@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&family=Funnel+Sans:wght@300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Semantic Spacing System */
+    --space-section-mobile: 4rem;
+    /* 64px */
+    --space-section-desktop: 8rem;
+    /* 128px */
+    --space-content: 2rem;
+    /* 32px */
+
+    --background: 0 0% 98%;
+    /* Slightly off-white #FAFAFA */
+    --foreground: 0 0% 10%;
+    /* Almost black #1A1A1A */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Smooth scrolling for anchor links */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-black/10;
+  }
+}
+
+/* Custom utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Solid, calm card style - replaces glassmorphism */
+  .card-solid {
+    @apply bg-white border border-black/5;
+  }
+
+  .img-grayscale {
+    @apply grayscale hover:grayscale-0 transition-all duration-700 ease-calm;
+  }
+
+  .bg-subtle {
+    @apply bg-[#F6F4EE];
+    /* Calm UI standard: ultra-light alabaster/linen to softly separate sections without aggressive contrast */
+  }
+}
