@@ -100,21 +100,21 @@ const Index = () => {
           <div className="absolute inset-0 bg-black/40" />
         </div>
 
-        <div className="relative z-30 container h-full grid grid-cols-1 md:grid-cols-12 gap-6 items-center px-6 md:px-12 text-white">
+        <div className="relative z-30 container h-full grid grid-cols-1 md:grid-cols-12 gap-6 px-6 md:px-12 text-white">
           {/* Main Hero Content */}
-          <div className="md:col-span-8 flex flex-col justify-center">
+          <div className="md:col-span-8 flex flex-col justify-center h-full gap-y-6">
             <div className="space-y-6 md:space-y-8 animate-fade-up">
               <h1 className="text-sm md:text-base tracking-[0.25em] opacity-90 font-sans font-medium uppercase text-white mb-6">
                 Estudio de Automatizaciones, IA & Gestión Operativa
               </h1>
-              <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-medium tracking-tight leading-[0.9] text-white text-balance uppercase">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-medium tracking-tight leading-[0.9] text-white text-balance uppercase max-w-4xl">
                 Escala tu negocio sin aumentar la <br className="hidden md:block" /> complejidad
               </h2>
             </div>
           </div>
 
           {/* Bottom/Footer content of Hero */}
-          <div className="md:col-span-4 flex flex-col justify-center space-y-4 animate-fade-up animation-delay-200 lg:pl-8">
+          <div className="md:col-span-4 flex flex-col justify-end pb-12 md:pb-24 space-y-4 animate-fade-up animation-delay-200 lg:pl-8">
             <div className="w-12 h-0.5 bg-white mb-2" />
             <p className="text-xs uppercase tracking-[0.2em] font-sans font-bold text-white">Somos Wawa</p>
             <p className="text-base md:text-lg leading-relaxed font-sans text-white">
@@ -128,36 +128,36 @@ const Index = () => {
       <section className="py-[var(--space-section-mobile)] md:py-[var(--space-section-desktop)] bg-subtle">
         <div className="container px-6 md:px-12">
           <div className="max-w-5xl mx-auto space-y-12">
-            <div className="w-full">
+            <div className="w-full text-center">
               <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
                 Escalar sin sistema multiplica complejidad.
               </h2>
-              <div className="space-y-6 text-foreground/80">
-                <p className="text-lg md:text-xl leading-relaxed font-sans font-normal tracking-wide">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pt-2">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pb-4">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
+              <div className="space-y-6 text-foreground/80 max-w-4xl mx-auto flex flex-col items-center">
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-balance text-center">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pt-2 text-balance text-center">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pb-4 text-balance text-center">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
               </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-x-12 gap-y-8 mt-12">
-              <ul className="space-y-8 text-sm md:text-base leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
+              <ul className="space-y-8 text-base md:text-lg leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
-                  <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">01</span>
-                  <span className="leading-relaxed"><strong>Gestión de leads estructurada:</strong> Cada oportunidad sigue un flujo definido, sin pérdidas ni cuellos de botella manuales.</span>
+                  <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">01</span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Gestión de leads estructurada:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Cada oportunidad sigue un flujo definido, sin pérdidas ni cuellos de botella manuales.</span></span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">02</span>
-                  <span className="leading-relaxed"><strong>Procesos preparados para escalar:</strong> Las tareas operativas no crecen al mismo ritmo que las ventas.</span>
+                  <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">02</span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Procesos preparados para escalar:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Las tareas operativas no crecen al mismo ritmo que las ventas.</span></span>
                 </li>
               </ul>
-              <ul className="space-y-8 text-sm md:text-base leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
+              <ul className="space-y-8 text-base md:text-lg leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
-                  <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">03</span>
-                  <span className="leading-relaxed"><strong>Facturación y onboarding integrados:</strong> La entrada de nuevos clientes activa automáticamente la operación.</span>
+                  <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">03</span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Facturación y onboarding integrados:</strong> <span className="text-sm md:text-base font-light text-foreground/80">La entrada de nuevos clientes activa automáticamente la operación.</span></span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <span className="text-sm font-bold mt-1.5 opacity-40 uppercase tracking-widest">04</span>
-                  <span className="leading-relaxed"><strong>Información unificada:</strong> Los datos fluyen entre áreas sin fricción ni duplicidades.</span>
+                  <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">04</span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Información unificada:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Los datos fluyen entre áreas sin fricción ni duplicidades.</span></span>
                 </li>
               </ul>
             </div>
@@ -231,14 +231,14 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-start min-h-[85vh] p-6 pt-32 md:p-12 md:pt-32 lg:p-16 lg:pt-32 bg-black text-white">
-            <div className="w-full max-w-xl">
-              <div className="mb-16">
+          <div className="flex flex-col justify-start min-h-[85vh] p-6 py-12 md:p-12 md:py-16 lg:p-16 lg:py-20 bg-black text-white">
+            <div className="w-full max-w-xl flex flex-col justify-between h-full flex-1">
+              <div className="mb-12 md:mb-16">
                 <h2 className="text-lg uppercase tracking-[0.2em] font-sans font-light text-white mb-4">Servicios</h2>
                 <div className="w-full h-0.5 bg-white/40" />
               </div>
 
-              <Accordion type="single" collapsible className="w-full space-y-8 md:space-y-10">
+              <Accordion type="single" collapsible className="w-full flex flex-col justify-end flex-1 space-y-6 md:space-y-8 lg:space-y-10">
                 {[
                   {
                     id: "automatizacion",

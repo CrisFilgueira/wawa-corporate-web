@@ -64,8 +64,8 @@ const Header = () => {
     <header className={headerClasses}>
       <div className="w-full px-6 md:px-12 max-w-[1920px] mx-auto flex items-center justify-between">
         <Link to="/" className="group relative z-[60]">
-          <div className={`text-3xl md:text-4xl hover:opacity-80 font-logo font-extrabold tracking-[0.02em] transition-all duration-500 ${finalTextColor}`}>
-            wawa<sup className="text-xs md:text-sm align-super font-bold ml-0.5">®</sup>
+          <div className={`text-5xl md:text-6xl font-logo font-extrabold tracking-tight transition-colors duration-500 ${finalTextColor}`}>
+            wawa<sup className="text-sm md:text-base align-super font-bold ml-0.5">®</sup>
           </div>
         </Link>
 
