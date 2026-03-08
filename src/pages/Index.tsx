@@ -100,11 +100,11 @@ const Index = () => {
           <div className="absolute inset-0 bg-black/40" />
         </div>
 
-        <div className="relative z-30 container h-full grid grid-cols-1 md:grid-cols-12 gap-6 items-end pb-12 md:pb-24 px-6 md:px-12 text-white">
+        <div className="relative z-30 container h-full grid grid-cols-1 md:grid-cols-12 gap-6 items-center px-6 md:px-12 text-white">
           {/* Main Hero Content */}
-          <div className="md:col-span-8 flex flex-col justify-center h-full pb-24 md:pb-0">
+          <div className="md:col-span-8 flex flex-col justify-center">
             <div className="space-y-6 md:space-y-8 animate-fade-up">
-              <h1 className="text-sm md:text-base tracking-[0.25em] opacity-90 font-sans font-medium uppercase text-white/90 mb-6">
+              <h1 className="text-sm md:text-base tracking-[0.25em] opacity-90 font-sans font-medium uppercase text-white mb-6">
                 Estudio de Automatizaciones, IA & Gestión Operativa
               </h1>
               <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-medium tracking-tight leading-[0.9] text-white text-balance uppercase">
@@ -114,10 +114,10 @@ const Index = () => {
           </div>
 
           {/* Bottom/Footer content of Hero */}
-          <div className="md:col-span-4 flex flex-col justify-end space-y-4 animate-fade-up animation-delay-200">
-            <div className="w-12 h-0.5 bg-white/60 mb-2" />
-            <p className="text-xs uppercase tracking-[0.2em] font-sans font-bold text-white/80">Somos Wawa</p>
-            <p className="text-base md:text-lg leading-relaxed font-sans text-white/90">
+          <div className="md:col-span-4 flex flex-col justify-center space-y-4 animate-fade-up animation-delay-200 lg:pl-8">
+            <div className="w-12 h-0.5 bg-white mb-2" />
+            <p className="text-xs uppercase tracking-[0.2em] font-sans font-bold text-white">Somos Wawa</p>
+            <p className="text-base md:text-lg leading-relaxed font-sans text-white">
               En Wawa diseñamos e implementamos sistemas de automatización e IA que absorben el crecimiento de tu negocio: ventas, operaciones y soporte, para que puedas escalar sin depender de tareas manuales ni añadir fricción operativa.
             </p>
           </div>

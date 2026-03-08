@@ -64,8 +64,8 @@ const Header = () => {
     <header className={headerClasses}>
       <div className="w-full px-6 md:px-12 max-w-[1920px] mx-auto flex items-center justify-between">
         <Link to="/" className="group relative z-[60]">
-          <div className={`text-5xl md:text-6xl font-logo font-extrabold tracking-tight transition-colors duration-500 ${finalTextColor}`}>
-            wawa<sup className="text-sm md:text-base align-super font-bold ml-0.5">®</sup>
+          <div className={`text-3xl md:text-4xl hover:opacity-80 font-logo font-extrabold tracking-[0.02em] transition-all duration-500 ${finalTextColor}`}>
+            wawa<sup className="text-xs md:text-sm align-super font-bold ml-0.5">®</sup>
           </div>
         </Link>
 
@@ -80,7 +80,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`group/link relative flex items-center gap-2 text-sm uppercase tracking-[0.15em] font-bold transition-all duration-300 hover:opacity-100 ${textColor} ${isActive ? 'opacity-100' : 'opacity-70'
+                className={`group/link relative flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300 hover:opacity-100 ${textColor} ${isActive ? 'opacity-100' : 'opacity-75'
                   } font-sans`}
               >
                 {/* Active state dot */}
