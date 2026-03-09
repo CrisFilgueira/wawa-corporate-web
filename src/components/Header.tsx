@@ -69,7 +69,7 @@ const Header = () => {
           </div>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-10">
           {[
             { path: '/servicios', label: 'Servicios' },
             { path: '/sobre-wawa', label: 'Sobre Wawa' },
@@ -80,7 +80,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`group/link relative flex items-center gap-2 text-[11px] uppercase tracking-[0.1em] font-medium transition-all duration-300 ${textColor} font-sans`}
+                className={`group/link relative flex items-center gap-2 text-xs uppercase tracking-[0.15em] font-medium transition-all duration-300 ${textColor} font-sans`}
               >
                 {/* Active state dot */}
                 <span className={`w-1.5 h-1.5 rounded-full bg-current transition-opacity duration-300 ${isActive ? 'opacity-100' : 'opacity-0'
