@@ -102,7 +102,7 @@ const Index = () => {
 
         <div className="relative z-30 container h-full grid grid-cols-1 md:grid-cols-12 gap-6 px-6 md:px-12 text-white">
           {/* Main Hero Content */}
-          <div className="md:col-span-8 flex flex-col justify-center h-full gap-y-6">
+          <div className="md:col-span-8 flex flex-col justify-start pt-[140px] md:pt-[180px] h-full gap-y-6">
             <div className="space-y-6 md:space-y-8 animate-fade-up">
               <h1 className="text-sm md:text-base tracking-[0.25em] opacity-90 font-sans font-medium uppercase text-white mb-6">
                 Estudio de Automatizaciones, IA & Gestión Operativa
