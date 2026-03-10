@@ -221,7 +221,7 @@ const Index = () => {
 
       {/* Servicios */}
       <section className="bg-black text-white">
-        <div className="grid md:grid-cols-2 h-full md:min-h-screen">
+        <div className="grid md:grid-cols-2 md:min-h-screen">
           <div className="hidden md:flex sticky top-0 h-screen bg-black">
             <div className="w-full h-full overflow-hidden relative">
               <img
@@ -234,7 +234,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-start h-full md:min-h-screen p-6 pt-12 pb-24 md:px-12 md:py-16 lg:px-16 lg:py-20 bg-black text-white relative">
+          <div className="flex flex-col justify-start md:min-h-screen p-6 pt-12 pb-24 md:px-12 md:py-16 lg:px-16 lg:py-20 bg-black text-white relative">
             <div className="w-full max-w-xl flex flex-col h-full mx-auto md:mx-0">
               <div className="mb-12 md:mb-16">
                 <h2 className="text-lg uppercase tracking-[0.2em] font-sans font-light text-white mb-4">Servicios</h2>

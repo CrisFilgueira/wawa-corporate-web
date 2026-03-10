@@ -75,20 +75,20 @@ const Servicios = () => {
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ CAMBIA EN TU DÍA A DÍA?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
-                        <li>→ Dejas de perder tiempo en tareas que una máquina puede hacer por ti.</li>
-                        <li>→ Reduces errores humanos.</li>
-                        <li>→ Recuperas horas cada semana para lo que realmente aporta valor.</li>
-                        <li>→ Trabajas menos horas sin perder resultados (o trabajas las mismas y creces más).</li>
+                        <li>• Dejas de perder tiempo en tareas que una máquina puede hacer por ti.</li>
+                        <li>• Reduces errores humanos.</li>
+                        <li>• Recuperas horas cada semana para lo que realmente aporta valor.</li>
+                        <li>• Trabajas menos horas sin perder resultados (o trabajas las mismas y creces más).</li>
                       </ul>
                     </div>
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ AUTOMATIZAR?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
-                        <li>→ Integración y sincronización entre herramientas (CRM, email, calendarios).</li>
-                        <li>→ Procesos administrativos repetitivos.</li>
-                        <li>→ Generación automática de reportes.</li>
-                        <li>→ Secuencias de email automatizadas (onboarding, follow-ups internos).</li>
-                        <li>→ Gestión interna de datos y actualización automática de información.</li>
+                        <li>• Integración y sincronización entre herramientas (CRM, email, calendarios).</li>
+                        <li>• Procesos administrativos repetitivos.</li>
+                        <li>• Generación automática de reportes.</li>
+                        <li>• Secuencias de email automatizadas (onboarding, follow-ups internos).</li>
+                        <li>• Gestión interna de datos y actualización automática de información.</li>
                       </ul>
                     </div>
                   </div>
@@ -128,22 +128,22 @@ const Servicios = () => {
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ CAMBIA CUANDO TIENES UN BOT INTELIGENTE?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
-                        <li>→ Tus clientes tienen respuestas inmediatas, a cualquier hora mejorando la experiencia de usuario y la accesibilidad de tu servicio sin aumentar tu carga de trabajo.</li>
-                        <li>→ Reduces drásticamente el tiempo que dedicas a consultas repetitivas.</li>
-                        <li>→ Tu negocio está disponible 24/7 sin que tú tengas que estarlo.</li>
-                        <li>→ Te diferencias de la competencia.</li>
+                        <li>• Tus clientes tienen respuestas inmediatas, a cualquier hora mejorando la experiencia de usuario y la accesibilidad de tu servicio sin aumentar tu carga de trabajo.</li>
+                        <li>• Reduces drásticamente el tiempo que dedicas a consultas repetitivas.</li>
+                        <li>• Tu negocio está disponible 24/7 sin que tú tengas que estarlo.</li>
+                        <li>• Te diferencias de la competencia.</li>
                       </ul>
                     </div>
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ PUEDEN HACER?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
-                        <li>→ Responder preguntas frecuentes de forma natural y contextual.</li>
-                        <li>→ Captar y calificar leads automáticamente.</li>
-                        <li>→ Hacer seguimiento inteligente de esos leads.</li>
-                        <li>→ Agendar citas mediante conversación.</li>
-                        <li>→ Ofrecer recomendaciones personalizadas.</li>
-                        <li>→ Gestionar consultas de soporte técnico básico.</li>
-                        <li>→ Enviar información sobre productos o servicios en el momento adecuado.</li>
+                        <li>• Responder preguntas frecuentes de forma natural y contextual.</li>
+                        <li>• Captar y calificar leads automáticamente.</li>
+                        <li>• Hacer seguimiento inteligente de esos leads.</li>
+                        <li>• Agendar citas mediante conversación.</li>
+                        <li>• Ofrecer recomendaciones personalizadas.</li>
+                        <li>• Gestionar consultas de soporte técnico básico.</li>
+                        <li>• Enviar información sobre productos o servicios en el momento adecuado.</li>
                       </ul>
                     </div>
                   </div>
@@ -267,12 +267,12 @@ const Servicios = () => {
                           </AccordionTrigger>
                           <AccordionContent className="pt-2 pb-6">
                             <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
-                              <li>→ Estrategia y arquitectura de información.</li>
-                              <li>→ Diseño visual personalizado.</li>
-                              <li>→ Desarrollo con vibe coding.</li>
-                              <li>→ Responsive (diseño adaptado a móvil, tablet, desktop).</li>
-                              <li>→ Optimización SEO on-page.</li>
-                              <li>→ Formación para que gestiones tu contenido.</li>
+                              <li>• Estrategia y arquitectura de información.</li>
+                              <li>• Diseño visual personalizado.</li>
+                              <li>• Desarrollo con vibe coding.</li>
+                              <li>• Responsive (diseño adaptado a móvil, tablet, desktop).</li>
+                              <li>• Optimización SEO on-page.</li>
+                              <li>• Formación para que gestiones tu contenido.</li>
                             </ul>
                           </AccordionContent>
                         </AccordionItem>
@@ -321,11 +321,11 @@ const Servicios = () => {
                     <div>
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">En qué intervenimos:</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
-                        <li>→ Coordinación y seguimiento de procesos diarios.</li>
-                        <li>→ Organización de lanzamientos y eventos.</li>
-                        <li>→ Gestión operativa en fases de crecimiento.</li>
-                        <li>→ Coordinación de comunicaciones.</li>
-                        <li>→ Otros procesos que requieran continuidad y orden.</li>
+                        <li>• Coordinación y seguimiento de procesos diarios.</li>
+                        <li>• Organización de lanzamientos y eventos.</li>
+                        <li>• Gestión operativa en fases de crecimiento.</li>
+                        <li>• Coordinación de comunicaciones.</li>
+                        <li>• Otros procesos que requieran continuidad y orden.</li>
                       </ul>
                     </div>
                   </div>
@@ -338,8 +338,8 @@ const Servicios = () => {
       </section>
 
       {/* Lo que conecta todos nuestros servicios */}
-      <section className="py-[var(--space-section-mobile)] md:py-[var(--space-section-desktop)] bg-subtle">
-        <div className="w-full max-w-[94%] mx-auto pt-4 md:pt-8">
+      <section className="pb-[var(--space-section-mobile)] pt-16 md:pb-[var(--space-section-desktop)] md:pt-24 bg-subtle">
+        <div className="w-full max-w-[94%] mx-auto">
           <div className="max-w-4xl flex flex-col items-start pr-4 md:pr-0">
             <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-left text-balance" style={{ animationFillMode: "forwards" }}>
               Lo que conecta todos nuestros servicios

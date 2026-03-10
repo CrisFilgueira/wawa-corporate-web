@@ -10,10 +10,10 @@ const Contacto = () => {
         description="Parar para avanzar. Contáctanos para diseñar sistemas que te devuelvan tiempo y claridad."
         canonical="https://somoswawa.com/contacto"
       />
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 flex flex-col justify-center overflow-hidden min-h-[90vh]">
+      <section className="pt-24 pb-16 md:pt-32 md:pb-24 flex flex-col justify-center overflow-hidden min-h-screen">
         <div className="container h-full">
           <div className="grid md:grid-cols-12 gap-8 items-start h-full pt-4 md:pt-16">
-            <div className="md:col-span-12 lg:col-span-5 pt-4 md:pt-0 flex flex-col justify-between h-auto md:h-[55vh] pb-8 md:pb-0">
+            <div className="md:col-span-12 lg:col-span-5 pt-4 md:pt-0 flex flex-col justify-between h-[50vh] md:h-[60vh] lg:h-[75vh] pb-8 lg:pb-0">
               <div>
                 <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-display font-medium tracking-tight leading-[0.9] animate-fade-up">
                   Todo empieza<br />con una<br />conversación.
@@ -23,7 +23,7 @@ const Contacto = () => {
                 </p>
               </div>
 
-              <div className="space-y-6 animate-fade-up animation-delay-200 mt-16 md:mt-auto pt-16 md:pt-20">
+              <div className="space-y-6 animate-fade-up animation-delay-200 mt-auto pt-16">
                 <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light max-w-none pr-4 md:pr-8">
                   Si necesitas recuperar tiempo y foco para hacer crecer tu negocio, contacta con nosotros en el correo {' '}
                   <a href="mailto:hola@somoswawa.com" className="text-foreground font-light underline underline-offset-4 hover:opacity-70 transition-opacity">
@@ -41,7 +41,7 @@ const Contacto = () => {
               </div>
             </div>
 
-            <div className="md:col-span-12 lg:col-span-6 lg:col-start-7 relative w-full h-[40vh] md:h-[55vh] flex items-stretch justify-end mt-12 lg:mt-0">
+            <div className="md:col-span-12 lg:col-span-6 lg:col-start-7 relative w-full h-[50vh] md:h-[60vh] lg:h-[75vh] flex items-stretch justify-end mt-12 lg:mt-0">
               <style>{`
                 @keyframes expandWidth {
                   0% { width: 0; }
