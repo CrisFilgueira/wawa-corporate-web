@@ -238,7 +238,7 @@ const Index = () => {
             <img
               src={home1}
               alt="Consultoría de IA y automatización en Wawa"
-              className="w-full h-full object-cover grayscale brightness-75 object-center"
+              className="w-full h-full object-cover grayscale brightness-75 object-bottom"
               loading="lazy"
             />
           </div>
