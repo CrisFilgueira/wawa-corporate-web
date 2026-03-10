@@ -340,21 +340,21 @@ const Servicios = () => {
       {/* Lo que conecta todos nuestros servicios */}
       <section className="py-[var(--space-section-mobile)] md:py-[var(--space-section-desktop)] bg-subtle">
         <div className="container max-w-3xl">
-          <div className="max-w-3xl mx-auto flex flex-col items-center">
-            <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-center text-balance max-w-2xl" style={{ animationFillMode: "forwards" }}>
+          <div className="max-w-4xl mx-auto flex flex-col items-start px-4 md:px-8">
+            <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-left text-balance" style={{ animationFillMode: "forwards" }}>
               Lo que conecta todos nuestros servicios
             </h2>
-            <div className="space-y-6 md:space-y-8 flex flex-col items-start text-left w-full max-w-2xl px-4 md:px-0 mx-auto">
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground">
+            <div className="space-y-6 md:space-y-8 flex flex-col items-start text-left w-full">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground text-pretty">
                 En WAWA todo responde a un mismo principio: El crecimiento sostenible requiere arquitectura.
               </p>
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground text-pretty">
                 No implementamos tecnología de forma aislada. Diseñamos sistemas donde automatización, datos e inteligencia artificial trabajan como una estructura integrada.
               </p>
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground text-pretty">
                 Conectamos procesos clave, estructuramos el ciclo comercial y operativo, y desplegamos sistemas preparados para absorber más volumen sin multiplicar complejidad.
               </p>
-              <p className="text-base md:text-lg leading-relaxed font-sans font-medium tracking-wide text-foreground mt-8 border-l border-foreground/30 pl-4">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-medium tracking-wide text-foreground text-pretty mt-8 border-l border-foreground/30 pl-4">
                 No añadimos herramientas. Rediseñamos el sistema que sostiene tu crecimiento.
               </p>
               <div className="pt-12 md:pt-16 text-left w-full">
@@ -365,7 +365,7 @@ const Servicios = () => {
                   <span className="border-b border-foreground/40 group-hover:border-foreground transition-colors pb-1">
                     ¿Hablamos de tu proyecto?
                   </span>
-                  <ArrowRight className="w-6 h-6 md:w-8 md:h-8 transition-transform duration-300 group-hover:translate-x-2" strokeWidth={1.5} />
+                  <ArrowRight className="w-6 h-6 md:w-8 md:h-8 transition-transform duration-300 group-hover:translate-x-2" strokeWidth={2.5} />
                 </Link>
               </div>
             </div>
