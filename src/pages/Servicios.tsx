@@ -25,7 +25,7 @@ const Servicios = () => {
       <h1 className="sr-only">Servicios de Automatización e Inteligencia Artificial</h1>
 
       {/* Hero Image Banner */}
-      <section className="pt-32 pb-4 md:pt-40 md:pb-8">
+      <section className="pt-32 pb-6 md:pt-40 md:pb-12">
         <div className="w-full max-w-[94%] mx-auto">
           <div className="w-full overflow-hidden rounded-2xl animate-fade-up opacity-0 aspect-[16/9] md:aspect-[21/9] relative group" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
             <img
@@ -39,12 +39,12 @@ const Servicios = () => {
           </div>
         </div>
       </section>      {/* Services Accordion */}
-      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-2 md:pt-8">
+      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-10 md:pt-16">
         <div className="w-full max-w-[94%] mx-auto">
-          <Accordion type="single" collapsible className="space-y-0 w-full border-t border-black">
+          <Accordion type="single" collapsible className="space-y-0 w-full">
 
             {/* Service 1: AUTOMATIZACIÓN */}
-            <AccordionItem value="automatizaciones" className="border-b border-black last:border-b last:border-black py-12">
+            <AccordionItem value="automatizaciones" className="border-b border-black py-12">
               <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
@@ -97,7 +97,7 @@ const Servicios = () => {
             </AccordionItem>
 
             {/* Service 2: IA Y CHATBOTS */}
-            <AccordionItem value="ia-chatbots" className="border-b border-black last:border-b last:border-black py-12">
+            <AccordionItem value="ia-chatbots" className="border-b border-black py-12">
               <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
@@ -152,7 +152,7 @@ const Servicios = () => {
             </AccordionItem>
 
             {/* Service 3: DISEÑO WEB Y DESARROLLO VIBE CODING */}
-            <AccordionItem value="web" className="border-b border-black last:border-b last:border-black py-12">
+            <AccordionItem value="web" className="border-b border-black py-12">
               <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
@@ -284,7 +284,7 @@ const Servicios = () => {
             </AccordionItem>
 
             {/* Service 4: GESTIÓN OPERATIVA */}
-            <AccordionItem value="apoyo-operativo" className="border-b border-black last:border-b last:border-black py-12">
+            <AccordionItem value="apoyo-operativo" className="border-none py-12">
               <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
