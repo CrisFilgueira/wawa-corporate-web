@@ -159,7 +159,7 @@ const SobreWawa = () => {
                       <p>
                         Con toda la información, diseñamos una propuesta personalizada con objetivos claros que incluye:
                       </p>
-                      <ul className="space-y-1">
+                      <ul className="space-y-3">
                         <li>• Qué vamos a hacer exactamente</li>
                         <li>• Qué herramientas utilizaremos</li>
                         <li>• Cuánto tiempo llevará</li>

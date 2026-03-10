@@ -74,7 +74,7 @@ const Servicios = () => {
                     </p>
                     <div>
                       <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ CAMBIA EN TU DÍA A DÍA?</p>
-                      <ul className="text-base leading-relaxed font-sans font-light text-black  space-y-1">
+                      <ul className="text-base leading-relaxed font-sans font-light text-black space-y-3">
                         <li>• Dejas de perder tiempo en tareas que una máquina puede hacer por ti.</li>
                         <li>• Reduces errores humanos.</li>
                         <li>• Recuperas horas cada semana para lo que realmente aporta valor.</li>
@@ -83,7 +83,7 @@ const Servicios = () => {
                     </div>
                     <div>
                       <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ AUTOMATIZAR?</p>
-                      <ul className="text-base leading-relaxed font-sans font-light text-black  space-y-1">
+                      <ul className="text-base leading-relaxed font-sans font-light text-black space-y-3">
                         <li>• Integración y sincronización entre herramientas (CRM, email, calendarios).</li>
                         <li>• Procesos administrativos repetitivos.</li>
                         <li>• Generación automática de reportes.</li>
@@ -127,7 +127,7 @@ const Servicios = () => {
                     </p>
                     <div>
                       <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ CAMBIA CUANDO TIENES UN BOT INTELIGENTE?</p>
-                      <ul className="text-base leading-relaxed font-sans font-light text-black  space-y-1">
+                      <ul className="text-base leading-relaxed font-sans font-light text-black space-y-3">
                         <li>• Tus clientes tienen respuestas inmediatas, a cualquier hora mejorando la experiencia de usuario y la accesibilidad de tu servicio sin aumentar tu carga de trabajo.</li>
                         <li>• Reduces drásticamente el tiempo que dedicas a consultas repetitivas.</li>
                         <li>• Tu negocio está disponible 24/7 sin que tú tengas que estarlo.</li>
@@ -136,7 +136,7 @@ const Servicios = () => {
                     </div>
                     <div>
                       <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ PUEDEN HACER?</p>
-                      <ul className="text-base leading-relaxed font-sans font-light text-black  space-y-1">
+                      <ul className="text-base leading-relaxed font-sans font-light text-black space-y-3">
                         <li>• Responder preguntas frecuentes de forma natural y contextual.</li>
                         <li>• Captar y calificar leads automáticamente.</li>
                         <li>• Hacer seguimiento inteligente de esos leads.</li>
@@ -266,7 +266,7 @@ const Servicios = () => {
                             </div>
                           </AccordionTrigger>
                           <AccordionContent className="pt-2 pb-6">
-                            <ul className="text-base leading-relaxed font-sans font-light text-black  space-y-1">
+                            <ul className="text-base leading-relaxed font-sans font-light text-black space-y-3">
                               <li>• Estrategia y arquitectura de información.</li>
                               <li>• Diseño visual personalizado.</li>
                               <li>• Desarrollo con vibe coding.</li>
@@ -320,7 +320,7 @@ const Servicios = () => {
                     </p>
                     <div>
                       <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">En qué intervenimos:</p>
-                      <ul className="text-base leading-relaxed font-sans font-light text-black  space-y-1">
+                      <ul className="text-base leading-relaxed font-sans font-light text-black space-y-3">
                         <li>• Coordinación y seguimiento de procesos diarios.</li>
                         <li>• Organización de lanzamientos y eventos.</li>
                         <li>• Gestión operativa en fases de crecimiento.</li>
