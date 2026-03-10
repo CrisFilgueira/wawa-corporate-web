@@ -21,7 +21,7 @@ const AnimatedKeyWords = () => {
 
   return (
     <div
-      className="container max-w-5xl mx-auto px-6 py-24 md:py-32 flex flex-col justify-center"
+      className="container max-w-5xl mx-auto px-6 pt-16 pb-12 md:pt-32 md:pb-16 flex flex-col justify-center"
       aria-label="Tiempo, Claridad y Enfoque"
     >
       {/* TIEMPO */}
@@ -106,8 +106,8 @@ const Index = () => {
             <h1 className="text-sm md:text-base tracking-[0.25em] opacity-80 font-sans font-medium uppercase text-white mb-2">
               Estudio de Automatizaciones, IA & Gestión Operativa
             </h1>
-            <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] xl:text-[90px] font-display font-medium tracking-tight leading-[0.85] text-white uppercase max-w-5xl -ml-1">
-              Escala tu negocio<br className="hidden md:block" /> sin aumentar<br className="hidden md:block" /> la complejidad
+            <h2 className="text-[52px] sm:text-[60px] md:text-[70px] lg:text-[76px] xl:text-[84px] font-display font-medium tracking-tight leading-[0.85] text-white uppercase max-w-3xl -ml-1">
+              Escala tu negocio<br className="hidden md:block" /> sin aumentar<br className="hidden md:block" /> la<br className="hidden md:block" /> complejidad
             </h2>
           </div>
 
@@ -135,10 +135,10 @@ const Index = () => {
               <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
                 Escalar sin sistema multiplica complejidad.
               </h2>
-              <div className="space-y-6 text-foreground/80 max-w-4xl mx-auto flex flex-col items-center">
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-balance text-center">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pt-2 text-balance text-center">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pb-4 text-balance text-center">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
+              <div className="space-y-6 text-foreground/80 max-w-2xl mx-auto flex flex-col items-start px-4 md:px-0">
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pt-2 text-left">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pb-4 text-left">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
               </div>
             </div>
 
@@ -178,7 +178,7 @@ const Index = () => {
       </section>
 
       {/* Solución */}
-      <section className="w-full py-[var(--space-section-mobile)] md:py-[var(--space-section-desktop)]">
+      <section className="w-full pt-16 md:pt-24 pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)]">
         <div className="grid md:grid-cols-2 w-full items-center">
           <div className="flex flex-col justify-center p-6 md:p-24 lg:p-32 order-2 md:order-1">
             <div className="max-w-xl mx-auto space-y-8">
@@ -189,16 +189,16 @@ const Index = () => {
               <ul className="space-y-6 text-base md:text-lg leading-relaxed font-sans text-foreground/80 border-l px-6 border-black/10 text-balance list-none py-2 pb-8">
                 <li className="space-y-1">
                   <strong className="text-foreground font-medium block">Automatizamos el ciclo comercial y operativo.</strong>
-                  <span className="text-base md:text-lg leading-relaxed opacity-80 block pt-1">Integramos cada paso del cliente, desde la captación y atención al lead hasta el cierre.</span>
+                  <span className="text-base md:text-lg leading-relaxed font-light opacity-80 block pt-1">Integramos cada paso del cliente, desde la captación y atención al lead hasta el cierre.</span>
                 </li>
                 <li className="space-y-1 mt-6">
                   <strong className="text-foreground font-medium block">Implementamos sistemas autónomos.</strong>
-                  <span className="text-base md:text-lg leading-relaxed opacity-80 block pt-1">La tecnología ejecuta el volumen; tú supervisas la estrategia.</span>
+                  <span className="text-base md:text-lg leading-relaxed font-light opacity-80 block pt-1">La tecnología ejecuta el volumen; tú supervisas la estrategia.</span>
                 </li>
               </ul>
 
-              <p className="text-base md:text-lg leading-relaxed font-sans tracking-wide  text-foreground/90 text-balance mt-4">
-                <strong>Resultado:</strong> un negocio digital preparado para aumentar volumen sin que la complejidad interna crezca al mismo ritmo.
+              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground/90 text-balance mt-4">
+                <strong className="font-medium">Resultado:</strong> un negocio digital preparado para aumentar volumen sin que la complejidad interna crezca al mismo ritmo.
               </p>
             </div>
           </div>
@@ -222,8 +222,8 @@ const Index = () => {
       {/* Servicios */}
       <section className="bg-black text-white">
         <div className="grid md:grid-cols-2 min-h-screen">
-          <div className="hidden md:flex items-center justify-center sticky top-0 h-[85vh] bg-black">
-            <div className="w-full h-full overflow-hidden relative">
+          <div className="hidden md:flex items-center justify-center sticky top-0 h-screen bg-black">
+            <div className="w-full h-[90vh] overflow-hidden relative">
               <img
                 src={home1}
                 alt="Consultoría de IA y automatización en Wawa"
@@ -234,14 +234,14 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-start min-h-[85vh] p-6 py-12 md:p-12 md:py-16 lg:p-16 lg:py-20 bg-black text-white">
-            <div className="w-full max-w-xl flex flex-col justify-between h-full flex-1">
-              <div className="mb-12 md:mb-16">
+          <div className="flex flex-col justify-center min-h-screen p-6 pt-12 pb-24 md:p-12 md:pt-16 md:pb-32 lg:p-16 lg:pt-20 bg-black text-white relative">
+            <div className="w-full max-w-xl flex flex-col justify-center h-full">
+              <div className="mb-12">
                 <h2 className="text-lg uppercase tracking-[0.2em] font-sans font-light text-white mb-4">Servicios</h2>
                 <div className="w-full h-0.5 bg-white/40" />
               </div>
 
-              <Accordion type="single" collapsible className="w-full flex flex-col justify-end flex-1 space-y-6 md:space-y-8 lg:space-y-10">
+              <Accordion type="single" collapsible className="w-full flex flex-col space-y-6 md:space-y-8 lg:space-y-10">
                 {[
                   {
                     id: "automatizacion",
@@ -290,11 +290,11 @@ const Index = () => {
                         </div>
                       </div>
                     </AccordionTrigger>
-                    <AccordionContent className="text-white text-base md:text-lg leading-relaxed font-sans font-light tracking-wide  text-balance pt-6 pb-2 max-w-3xl">
-                      <div className="mb-6">{service.desc}</div>
+                    <AccordionContent className="text-white text-base md:text-lg leading-relaxed font-sans font-light opacity-80 tracking-wide text-balance pt-6 pb-2 max-w-3xl">
+                      <div className="mb-8 font-light">{service.desc}</div>
                       <Link
                         to="/servicios"
-                        className="inline-flex items-center text-xs uppercase tracking-widest font-medium text-white border-b border-white/30 pb-0.5 hover:border-white transition-colors"
+                        className="inline-flex items-center text-[11px] md:text-xs uppercase tracking-widest font-light text-white/80 border-b border-white/30 pb-0.5 hover:border-white transition-colors"
                       >
                         Descubrir más
                       </Link>
