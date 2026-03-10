@@ -120,8 +120,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">01. ESCUCHA</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1.5} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1.5} />
                       </div>
                     </div>
                   </AccordionTrigger>
@@ -149,8 +149,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">02. ESTRATEGIA</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1.5} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1.5} />
                       </div>
                     </div>
                   </AccordionTrigger>
@@ -178,8 +178,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">03. IMPLEMENTACIÓN</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1.5} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1.5} />
                       </div>
                     </div>
                   </AccordionTrigger>
@@ -207,8 +207,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">04. ACOMPAÑAMIENTO</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1.5} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1.5} />
                       </div>
                     </div>
                   </AccordionTrigger>
