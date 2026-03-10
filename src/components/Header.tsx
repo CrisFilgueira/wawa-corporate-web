@@ -80,7 +80,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`group/link relative flex items-center gap-2 text-xs uppercase tracking-[0.15em] font-medium transition-all duration-300 ${textColor} font-sans`}
+                className={`group/link relative flex items-center gap-2 text-xs uppercase tracking-[0.15em] font-normal transition-all duration-300 ${textColor} font-sans`}
               >
                 {/* Active state dot */}
                 <span className={`w-1.5 h-1.5 rounded-full bg-current transition-opacity duration-300 ${isActive ? 'opacity-100' : 'opacity-0'
@@ -128,7 +128,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-lg uppercase tracking-[0.15em] font-bold transition-all duration-300 ${isActive ? 'text-foreground opacity-100' : 'text-foreground/70 hover:opacity-100'
+                className={`text-lg uppercase tracking-[0.15em] font-normal transition-all duration-300 ${isActive ? 'text-foreground opacity-100' : 'text-foreground/70 hover:opacity-100'
                   } font-sans`}
               >
                 {link.label}

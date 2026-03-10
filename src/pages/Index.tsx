@@ -100,22 +100,24 @@ const Index = () => {
           <div className="absolute inset-0 bg-black/40" />
         </div>
 
-        <div className="relative z-30 container h-full flex flex-col justify-center px-6 md:px-12 text-white">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-y-16 md:gap-x-6 w-full items-end pb-8">
-            {/* Main Hero Content */}
-            <div className="md:col-span-8 flex flex-col justify-end space-y-6 md:space-y-8 animate-fade-up">
-              <h1 className="text-sm md:text-base tracking-[0.25em] opacity-80 font-sans font-medium uppercase text-white mb-2">
-                Estudio de Automatizaciones, IA & Gestión Operativa
-              </h1>
-              <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] xl:text-[90px] font-display font-medium tracking-tight leading-[0.85] text-white uppercase max-w-5xl -ml-1">
-                Escala tu negocio<br className="hidden md:block" /> sin aumentar<br className="hidden md:block" /> la complejidad
-              </h2>
-            </div>
+        <div className="relative z-30 container h-full flex flex-col justify-between pt-[140px] pb-[100px] md:pt-[180px] md:pb-[140px] px-6 md:px-12 text-white">
+          {/* Main Hero Content */}
+          <div className="w-full flex flex-col justify-start space-y-6 md:space-y-8 animate-fade-up">
+            <h1 className="text-sm md:text-base tracking-[0.25em] opacity-80 font-sans font-medium uppercase text-white mb-2">
+              Estudio de Automatizaciones, IA & Gestión Operativa
+            </h1>
+            <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] xl:text-[90px] font-display font-medium tracking-tight leading-[0.85] text-white uppercase max-w-5xl -ml-1">
+              Escala tu negocio<br className="hidden md:block" /> sin aumentar<br className="hidden md:block" /> la complejidad
+            </h2>
+          </div>
 
+          <div className="grid grid-cols-1 md:grid-cols-12 w-full">
+            <div className="hidden md:block md:col-span-8"></div>
             {/* Bottom/Footer content of Hero */}
-            <div className="md:col-span-4 flex flex-col justify-end space-y-4 animate-fade-up animation-delay-200 lg:pl-10 pb-2 md:pb-4">
-              <p className="text-[11px] md:text-xs uppercase tracking-[0.2em] font-sans font-medium text-white/70 flex items-center gap-1.5">
-                Somos Wawa <span className="text-[14px] leading-none mb-0.5">⬎</span>
+            <div className="md:col-span-4 flex flex-col justify-end space-y-4 animate-fade-up animation-delay-200 lg:pl-10">
+              <div className="w-6 md:w-8 h-[1px] bg-white/70 mb-1" />
+              <p className="text-[11px] md:text-xs uppercase tracking-[0.2em] font-sans font-medium text-white/90">
+                Somos Wawa
               </p>
               <p className="text-sm md:text-[15px] leading-relaxed font-sans font-light text-white/90">
                 En Wawa diseñamos e implementamos sistemas de automatización e IA que absorben el crecimiento de tu negocio: ventas, operaciones y soporte, para que puedas escalar sin depender de tareas manuales ni añadir fricción operativa.
