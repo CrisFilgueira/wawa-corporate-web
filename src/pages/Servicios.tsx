@@ -339,7 +339,7 @@ const Servicios = () => {
 
       {/* Lo que conecta todos nuestros servicios */}
       <section className="py-[var(--space-section-mobile)] md:py-[var(--space-section-desktop)] bg-subtle">
-        <div className="w-full max-w-[94%] mx-auto py-16 md:py-24 border-t border-black">
+        <div className="w-full max-w-[94%] mx-auto pt-4 md:pt-8">
           <div className="max-w-4xl flex flex-col items-start pr-4 md:pr-0">
             <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-left text-balance" style={{ animationFillMode: "forwards" }}>
               Lo que conecta todos nuestros servicios

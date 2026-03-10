@@ -221,7 +221,7 @@ const Index = () => {
 
       {/* Servicios */}
       <section className="bg-black text-white">
-        <div className="grid md:grid-cols-2 min-h-screen">
+        <div className="grid md:grid-cols-2 h-full md:min-h-screen">
           <div className="hidden md:flex sticky top-0 h-screen bg-black">
             <div className="w-full h-full overflow-hidden relative">
               <img
@@ -234,7 +234,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-start min-h-screen p-6 pt-12 pb-24 md:px-12 md:py-16 lg:px-16 lg:py-20 bg-black text-white relative">
+          <div className="flex flex-col justify-start h-full md:min-h-screen p-6 pt-12 pb-24 md:px-12 md:py-16 lg:px-16 lg:py-20 bg-black text-white relative">
             <div className="w-full max-w-xl flex flex-col h-full mx-auto md:mx-0">
               <div className="mb-12 md:mb-16">
                 <h2 className="text-lg uppercase tracking-[0.2em] font-sans font-light text-white mb-4">Servicios</h2>
@@ -294,7 +294,8 @@ const Index = () => {
                       <div className="mb-8 font-extralight text-white/80 [&_*]:font-extralight" style={{ fontWeight: 200, WebkitFontSmoothing: "auto" }}>{service.desc}</div>
                       <Link
                         to="/servicios"
-                        className="inline-flex items-center text-[11px] md:text-xs uppercase tracking-widest font-light text-white border-b border-white/30 pb-0.5 hover:border-white transition-colors"
+                        className="inline-flex items-center text-xs md:text-sm uppercase tracking-[0.15em] font-normal text-white/90 border-b border-white/40 pb-0.5 hover:border-white hover:text-white transition-all mt-4"
+                        style={{ fontWeight: 400, letterSpacing: '0.15em', WebkitFontSmoothing: "auto" }}
                       >
                         Descubrir más
                       </Link>
