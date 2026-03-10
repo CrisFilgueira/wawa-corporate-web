@@ -27,7 +27,7 @@ const Servicios = () => {
       {/* Hero Image Banner */}
       <section className="pt-32 pb-4 md:pt-40 md:pb-8">
         <div className="w-full max-w-[94%] mx-auto">
-          <div className="w-full overflow-hidden rounded-2xl animate-fade-up opacity-0 aspect-[16/9] md:aspect-[21/9] relative group" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
+          <div className="w-full overflow-hidden rounded-2xl animate-fade-up opacity-0 aspect-[16/9] md:aspect-[21/9] relative group" style={{ animationDelay: '200ms', animationFillMode: 'forwards', transform: 'translateZ(0)', WebkitMaskImage: '-webkit-radial-gradient(white, black)' }}>
             <img
               src={serviciosImage}
               alt="Servicios de Automatización de procesos e IA corporativa en Wawa"

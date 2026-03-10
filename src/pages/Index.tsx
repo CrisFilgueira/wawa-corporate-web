@@ -234,12 +234,11 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="block md:hidden w-full aspect-[4/3] overflow-hidden relative">
+          <div className="block md:hidden w-full aspect-[4/5] overflow-hidden relative">
             <img
               src={home1}
               alt="Consultoría de IA y automatización en Wawa"
-              className="w-full h-full object-cover grayscale brightness-75"
-              style={{ objectPosition: 'center 30%' }}
+              className="w-full h-full object-cover grayscale brightness-75 object-bottom"
               loading="lazy"
             />
           </div>
