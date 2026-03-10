@@ -281,7 +281,7 @@ const Index = () => {
                   <AccordionItem key={service.id} value={service.id} className="border-none">
                     <AccordionTrigger className="text-left py-0 hover:no-underline hover:opacity-100 group transition-all">
                       <div className="flex items-start justify-between w-full">
-                        <span className="text-4xl md:text-5xl font-sans font-medium text-white uppercase tracking-normal leading-[1.1] group-hover:font-bold transition-all duration-300 pr-4">
+                        <span className="text-4xl md:text-5xl font-sans font-semibold text-white/90 uppercase tracking-normal leading-[1.1] group-hover:font-bold group-hover:text-white transition-all duration-300 pr-4">
                           {service.title}
                         </span>
                         <div className="flex shrink-0 mt-1">
@@ -291,7 +291,7 @@ const Index = () => {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-white text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-balance pt-6 pb-2 max-w-3xl">
-                      <div className="mb-8 font-light text-white [&_*]:font-light">{service.desc}</div>
+                      <div className="mb-8 font-light text-white/80 [&_*]:font-light" style={{ fontWeight: 300 }}>{service.desc}</div>
                       <Link
                         to="/servicios"
                         className="inline-flex items-center text-[11px] md:text-xs uppercase tracking-widest font-light text-white border-b border-white/30 pb-0.5 hover:border-white transition-colors"
