@@ -68,12 +68,12 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6 [&_*]:font-light">
+                  <div className="space-y-6">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Automatizamos las tareas repetitivas de tu negocio, ahorrando tiempo, dinero y recursos. Usamos herramientas como n8n para crear flujos de trabajo eficientes y personalizados, adaptados a tus necesidades.
                     </p>
                     <div>
-                      <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ CAMBIA EN TU DÍA A DÍA?</p>
+                      <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ CAMBIA EN TU DÍA A DÍA?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
                         <li>• Dejas de perder tiempo en tareas que una máquina puede hacer por ti.</li>
                         <li>• Reduces errores humanos.</li>
@@ -82,7 +82,7 @@ const Servicios = () => {
                       </ul>
                     </div>
                     <div>
-                      <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ AUTOMATIZAR?</p>
+                      <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ AUTOMATIZAR?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
                         <li>• Integración y sincronización entre herramientas (CRM, email, calendarios).</li>
                         <li>• Procesos administrativos repetitivos.</li>
@@ -121,12 +121,12 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6 [&_*]:font-light">
+                  <div className="space-y-6">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Creamos chatbots con inteligencia artificial que se integran en tu web, tu app o tus plataformas de mensajería como el correo electrónico o Whatsapp. No son bots rígidos con respuestas prefijadas. Son conversaciones naturales, automatizadas e inteligentes que atienden a tus clientes 24/7. Responden consultas. Ofrecen información. Realizan acciones. Generan contenido. Todo sin que tú tengas que estar disponible.
                     </p>
                     <div>
-                      <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ CAMBIA CUANDO TIENES UN BOT INTELIGENTE?</p>
+                      <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ CAMBIA CUANDO TIENES UN BOT INTELIGENTE?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
                         <li>• Tus clientes tienen respuestas inmediatas, a cualquier hora mejorando la experiencia de usuario y la accesibilidad de tu servicio sin aumentar tu carga de trabajo.</li>
                         <li>• Reduces drásticamente el tiempo que dedicas a consultas repetitivas.</li>
@@ -135,7 +135,7 @@ const Servicios = () => {
                       </ul>
                     </div>
                     <div>
-                      <p className="text-sm uppercase tracking-widest mb-3 font-medium">¿QUÉ PUEDEN HACER?</p>
+                      <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">¿QUÉ PUEDEN HACER?</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
                         <li>• Responder preguntas frecuentes de forma natural y contextual.</li>
                         <li>• Captar y calificar leads automáticamente.</li>
@@ -176,7 +176,7 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6 [&_*]:font-light">
+                  <div className="space-y-6">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Diseñamos experiencias digitales con estrategia que transmitan quién eres, qué haces y por qué eres la opción correcta.
                     </p>
@@ -185,7 +185,7 @@ const Servicios = () => {
                     </p>
 
                     <div>
-                      <p className="text-sm uppercase tracking-widest mb-3 font-medium">Nuestro proceso:</p>
+                      <p className="text-base uppercase tracking-widest mb-4 font-semibold text-black">Nuestro proceso:</p>
                       <Accordion type="single" collapsible className="w-full space-y-0 border-t border-black">
                         <AccordionItem value="estrategia-web" className="border-b border-black py-4">
                           <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
@@ -308,7 +308,7 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6 [&_*]:font-light">
+                  <div className="space-y-6">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Nos ocupamos de la organización, coordinación y ejecución de tareas clave para que la operativa diaria de tu negocio avance sin fricción.
                     </p>
@@ -319,7 +319,7 @@ const Servicios = () => {
                       Entendemos tu negocio a fondo y actuamos como parte de tu equipo, con responsabilidad y visión práctica.
                     </p>
                     <div>
-                      <p className="text-sm uppercase tracking-widest mb-3 font-medium">En qué intervenimos:</p>
+                      <p className="text-base uppercase tracking-widest mb-3 font-semibold text-black">En qué intervenimos:</p>
                       <ul className="text-base md:text-lg leading-relaxed font-sans font-light text-black  space-y-1">
                         <li>• Coordinación y seguimiento de procesos diarios.</li>
                         <li>• Organización de lanzamientos y eventos.</li>

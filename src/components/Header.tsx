@@ -14,6 +14,18 @@ const Header = () => {
     setIsMobileMenuOpen(false);
   }, [location.pathname]);
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isMobileMenuOpen]);
+
   useEffect(() => {
     let ticking = false;
 
@@ -47,9 +59,9 @@ const Header = () => {
   // Home: Transparent initially, then solid background on scroll.
   // Others: Always solid for clarity, or transparent if needed but usually solid is better for readability.
   // Actually, keeping the "transparent at top" for others is fine if content allows, but let's make it more standard/solid for others to ensure "calm authority".
-  const headerClasses = `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-calm ${isVisible ? 'translate-y-0' : '-translate-y-full'
+  const headerClasses = `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-calm ${isVisible || isMobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
     } ${isHome
-      ? (isScrolled ? 'bg-background/95 backdrop-blur-xl py-4 border-b border-border/10' : 'bg-transparent py-6')
+      ? (isScrolled || isMobileMenuOpen ? 'bg-background/95 backdrop-blur-xl py-4 border-b border-border/10' : 'bg-transparent py-6')
       : 'bg-background/95 backdrop-blur-xl py-4 border-b border-border/10'
     }`;
 
@@ -113,10 +125,10 @@ const Header = () => {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed inset-0 z-50 bg-background flex flex-col items-center justify-center transition-all duration-500 ease-calm md:hidden ${isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        className={`fixed inset-0 z-[55] w-full h-[100dvh] bg-background flex flex-col items-center justify-center transition-all duration-[400ms] ease-out md:hidden ${isMobileMenuOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-8 pointer-events-none"
           }`}
       >
-        <nav className="flex flex-col items-center gap-8">
+        <nav className="flex flex-col items-center gap-10">
           {[
             { path: '/', label: 'Inicio' },
             { path: '/servicios', label: 'Servicios' },

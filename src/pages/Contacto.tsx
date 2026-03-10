@@ -10,10 +10,10 @@ const Contacto = () => {
         description="Parar para avanzar. Contáctanos para diseñar sistemas que te devuelvan tiempo y claridad."
         canonical="https://somoswawa.com/contacto"
       />
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 flex flex-col justify-center overflow-hidden min-h-screen">
-        <div className="container h-full">
-          <div className="grid md:grid-cols-12 gap-8 items-start h-full pt-4 md:pt-16">
-            <div className="md:col-span-12 lg:col-span-5 pt-4 md:pt-0 flex flex-col justify-between h-[50vh] md:h-[60vh] lg:h-[75vh] pb-8 lg:pb-0">
+      <section className="pt-32 pb-12 md:pt-40 md:pb-20 overflow-hidden">
+        <div className="container">
+          <div className="grid md:grid-cols-12 gap-8 items-start">
+            <div className="md:col-span-12 lg:col-span-5 flex flex-col justify-between h-[50vh] md:h-[60vh] lg:h-[75vh] pb-8 lg:pb-0 order-2 lg:order-1">
               <div>
                 <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-display font-medium tracking-tight leading-[0.9] animate-fade-up">
                   Todo empieza<br />con una<br />conversación.
@@ -41,7 +41,7 @@ const Contacto = () => {
               </div>
             </div>
 
-            <div className="md:col-span-12 lg:col-span-6 lg:col-start-7 relative w-full h-[50vh] md:h-[60vh] lg:h-[75vh] flex items-stretch justify-end mt-12 lg:mt-0">
+            <div className="md:col-span-12 lg:col-span-6 lg:col-start-7 relative w-full h-[50vh] md:h-[60vh] lg:h-[75vh] flex items-stretch justify-end mt-0 lg:mt-0 order-1 lg:order-2 mb-8 lg:mb-0">
               <style>{`
                 @keyframes expandWidth {
                   0% { width: 0; }

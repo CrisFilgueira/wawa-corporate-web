@@ -37,7 +37,7 @@ const SobreWawa = () => {
       </section>
 
       {/* Por qué nace Wawa */}
-      <section className="py-24 md:py-32">
+      <section className="pt-12 pb-24 md:py-32">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
@@ -159,12 +159,12 @@ const SobreWawa = () => {
                       <p>
                         Con toda la información, diseñamos una propuesta personalizada con objetivos claros que incluye:
                       </p>
-                      <p>
-                        → Qué vamos a hacer exactamente<br />
-                        → Qué herramientas utilizaremos<br />
-                        → Cuánto tiempo llevará<br />
-                        → La inversión necesaria
-                      </p>
+                      <ul className="space-y-1">
+                        <li>• Qué vamos a hacer exactamente</li>
+                        <li>• Qué herramientas utilizaremos</li>
+                        <li>• Cuánto tiempo llevará</li>
+                        <li>• La inversión necesaria</li>
+                      </ul>
                       <p>
                         Todo explicado con claridad. Sin letra pequeña. Sin sorpresas.
                       </p>
