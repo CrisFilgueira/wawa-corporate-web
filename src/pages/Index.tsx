@@ -119,7 +119,7 @@ const Index = () => {
               <p className="text-[11px] md:text-xs uppercase tracking-[0.2em] font-sans font-medium text-white">
                 Somos Wawa
               </p>
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light text-white">
+              <p className="text-sm md:text-[15px] leading-relaxed font-sans font-light text-white">
                 En Wawa diseñamos e implementamos sistemas de automatización e IA que absorben el crecimiento de tu negocio: ventas, operaciones y soporte, para que puedas escalar sin depender de tareas manuales ni añadir fricción operativa.
               </p>
             </div>
@@ -132,7 +132,7 @@ const Index = () => {
         <div className="container px-6 md:px-12">
           <div className="max-w-5xl mx-auto space-y-12">
             <div className="w-full text-left">
-              <h2 className="text-3xl md:text-4xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
+              <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
                 Escalar sin sistema multiplica complejidad
               </h2>
               <div className="space-y-6 md:space-y-8 text-foreground/80 max-w-5xl flex flex-col items-start px-4 md:px-0">
@@ -182,7 +182,7 @@ const Index = () => {
         <div className="grid md:grid-cols-2 w-full items-center">
           <div className="flex flex-col justify-center p-6 md:p-24 lg:p-32 order-2 md:order-1">
             <div className="max-w-xl mx-auto space-y-8">
-              <h2 className="text-3xl md:text-4xl font-display font-medium tracking-tight text-foreground text-balance">
+              <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground text-balance">
                 Rediseñamos la arquitectura de tu crecimiento
               </h2>
 
