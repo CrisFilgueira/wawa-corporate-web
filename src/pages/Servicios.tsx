@@ -45,7 +45,7 @@ const Servicios = () => {
 
             {/* Service 1: AUTOMATIZACIÓN */}
             <AccordionItem value="automatizaciones" className="border-b border-black last:border-b last:border-black py-12">
-              <AccordionTrigger className="hover:no-underline py-4 group">
+              <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
                     <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
@@ -98,7 +98,7 @@ const Servicios = () => {
 
             {/* Service 2: IA Y CHATBOTS */}
             <AccordionItem value="ia-chatbots" className="border-b border-black last:border-b last:border-black py-12">
-              <AccordionTrigger className="hover:no-underline py-4 group">
+              <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
                     <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
@@ -153,7 +153,7 @@ const Servicios = () => {
 
             {/* Service 3: DISEÑO WEB Y DESARROLLO VIBE CODING */}
             <AccordionItem value="web" className="border-b border-black last:border-b last:border-black py-12">
-              <AccordionTrigger className="hover:no-underline py-4 group">
+              <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
                     <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
@@ -188,7 +188,7 @@ const Servicios = () => {
                       <p className="text-sm uppercase tracking-widest mb-3 font-medium">Nuestro proceso:</p>
                       <Accordion type="single" collapsible className="w-full space-y-0 border-t border-black">
                         <AccordionItem value="estrategia-web" className="border-b border-black py-4">
-                          <AccordionTrigger className="hover:no-underline py-4 group">
+                          <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
                               <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">01. Estrategia web</h4>
                               <div className="flex shrink-0 ml-4">
@@ -205,7 +205,7 @@ const Servicios = () => {
                         </AccordionItem>
 
                         <AccordionItem value="diseno" className="border-b border-black py-4">
-                          <AccordionTrigger className="hover:no-underline py-4 group">
+                          <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
                               <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">02. Diseño</h4>
                               <div className="flex shrink-0 ml-4">
@@ -222,7 +222,7 @@ const Servicios = () => {
                         </AccordionItem>
 
                         <AccordionItem value="desarrollo" className="border-b border-black py-4">
-                          <AccordionTrigger className="hover:no-underline py-4 group">
+                          <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
                               <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">03. Desarrollo vibe coding</h4>
                               <div className="flex shrink-0 ml-4">
@@ -239,7 +239,7 @@ const Servicios = () => {
                         </AccordionItem>
 
                         <AccordionItem value="entrega" className="border-b border-black py-4">
-                          <AccordionTrigger className="hover:no-underline py-4 group">
+                          <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
                               <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">04. Entrega</h4>
                               <div className="flex shrink-0 ml-4">
@@ -256,7 +256,7 @@ const Servicios = () => {
                         </AccordionItem>
 
                         <AccordionItem value="que-incluye" className="border-b border-black py-4">
-                          <AccordionTrigger className="hover:no-underline py-4 group">
+                          <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                             <div className="flex items-center justify-between w-full text-left">
                               <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium">Qué incluye</h4>
                               <div className="flex shrink-0 ml-4">
@@ -285,7 +285,7 @@ const Servicios = () => {
 
             {/* Service 4: GESTIÓN OPERATIVA */}
             <AccordionItem value="apoyo-operativo" className="border-b border-black last:border-b last:border-black py-12">
-              <AccordionTrigger className="hover:no-underline py-4 group">
+              <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
                     <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">

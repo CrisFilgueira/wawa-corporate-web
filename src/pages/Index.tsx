@@ -131,14 +131,14 @@ const Index = () => {
       <section className="py-[var(--space-section-mobile)] md:py-[var(--space-section-desktop)] bg-subtle">
         <div className="container px-6 md:px-12">
           <div className="max-w-5xl mx-auto space-y-12">
-            <div className="w-full text-center">
+            <div className="w-full text-left">
               <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
                 Escalar sin sistema multiplica complejidad
               </h2>
               <div className="space-y-6 md:space-y-8 text-foreground/80 max-w-5xl flex flex-col items-start px-4 md:px-0">
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left max-w-3xl">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pt-2 max-w-3xl">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pb-4 max-w-3xl">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left w-full">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pt-2 w-full">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pb-4 w-full">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
               </div>
             </div>
 
@@ -165,8 +165,8 @@ const Index = () => {
               </ul>
             </div>
 
-            <div className="mt-16 text-xl md:text-2xl font-sans font-medium leading-relaxed text-foreground/90 text-center mx-auto max-w-2xl py-2">
-              <p>Escalar con estructura no es añadir más esfuerzo. Es diseñar mejor el sistema</p>
+            <div className="mt-16 text-xl md:text-2xl font-sans font-medium leading-relaxed text-foreground/90 text-left py-2 border-l-2 border-foreground/30 pl-6">
+              <p>Escalar con estructura no es añadir más esfuerzo. Es diseñar mejor el sistema.</p>
             </div>
           </div>
         </div>
@@ -279,7 +279,7 @@ const Index = () => {
                   }
                 ].map((service) => (
                   <AccordionItem key={service.id} value={service.id} className="border-none">
-                    <AccordionTrigger className="text-left py-0 hover:no-underline group transition-all">
+                    <AccordionTrigger className="text-left py-0 hover:no-underline hover:opacity-100 group transition-all">
                       <div className="flex items-start justify-between w-full">
                         <span className="text-4xl md:text-5xl font-sans font-medium text-white uppercase tracking-normal leading-[1.1] group-hover:font-bold transition-all duration-300 pr-4">
                           {service.title}
