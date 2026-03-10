@@ -37,7 +37,7 @@ const SobreWawa = () => {
       </section>
 
       {/* Por qué nace Wawa */}
-      <section className="pt-8 pb-24 md:pt-12 md:pb-32">
+      <section className="pt-12 pb-24 md:pt-16 md:pb-32">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
@@ -120,8 +120,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">01. ESCUCHA</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
                       </div>
                     </div>
                   </AccordionTrigger>
@@ -149,8 +149,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">02. ESTRATEGIA</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
                       </div>
                     </div>
                   </AccordionTrigger>
@@ -178,8 +178,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">03. IMPLEMENTACIÓN</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
                       </div>
                     </div>
                   </AccordionTrigger>
@@ -207,8 +207,8 @@ const SobreWawa = () => {
                     <div className="flex items-center justify-between w-full text-left">
                       <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">04. ACOMPAÑAMIENTO</h4>
                       <div className="flex shrink-0 ml-4">
-                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
-                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
+                        <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1} />
+                        <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1} />
                       </div>
                     </div>
                   </AccordionTrigger>
