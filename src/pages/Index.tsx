@@ -133,12 +133,12 @@ const Index = () => {
           <div className="max-w-5xl mx-auto space-y-12">
             <div className="w-full text-center">
               <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
-                Escalar sin sistema multiplica complejidad.
+                Escalar sin sistema multiplica complejidad
               </h2>
-              <div className="space-y-6 md:space-y-8 text-foreground/80 max-w-4xl mx-auto flex flex-col items-center px-4 md:px-0">
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-center">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pt-2 text-center">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pb-4 text-center">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
+              <div className="space-y-6 md:space-y-8 text-foreground/80 max-w-5xl flex flex-col items-start px-4 md:px-0">
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left max-w-3xl">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pt-2 max-w-3xl">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
+                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pb-4 max-w-3xl">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
               </div>
             </div>
 
@@ -166,7 +166,7 @@ const Index = () => {
             </div>
 
             <div className="mt-16 text-xl md:text-2xl font-sans font-medium leading-relaxed text-foreground/90 text-center mx-auto max-w-2xl py-2">
-              <p>Escalar con estructura no es añadir más esfuerzo. Es diseñar mejor el sistema.</p>
+              <p>Escalar con estructura no es añadir más esfuerzo. Es diseñar mejor el sistema</p>
             </div>
           </div>
         </div>
@@ -222,8 +222,8 @@ const Index = () => {
       {/* Servicios */}
       <section className="bg-black text-white">
         <div className="grid md:grid-cols-2 min-h-screen">
-          <div className="hidden md:flex items-center justify-center sticky top-0 h-screen bg-black">
-            <div className="w-full h-[90vh] overflow-hidden relative">
+          <div className="hidden md:flex sticky top-0 h-screen bg-black">
+            <div className="w-full h-full overflow-hidden relative">
               <img
                 src={home1}
                 alt="Consultoría de IA y automatización en Wawa"
@@ -234,14 +234,14 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-start min-h-screen p-6 pt-12 pb-24 md:p-12 md:pt-32 md:pb-32 lg:p-16 lg:pt-40 bg-black text-white relative">
-            <div className="w-full max-w-xl flex flex-col h-full">
-              <div className="mb-16 md:mb-24">
+          <div className="flex flex-col justify-start min-h-screen p-6 pt-12 pb-24 md:px-12 md:py-16 lg:px-16 lg:py-20 bg-black text-white relative">
+            <div className="w-full max-w-xl flex flex-col h-full mx-auto md:mx-0">
+              <div className="mb-12 md:mb-16">
                 <h2 className="text-lg uppercase tracking-[0.2em] font-sans font-light text-white mb-4">Servicios</h2>
                 <div className="w-full h-[1px] bg-white/40" />
               </div>
 
-              <Accordion type="single" collapsible className="w-full flex flex-col space-y-12 md:space-y-16">
+              <Accordion type="single" collapsible className="w-full flex flex-col space-y-8 md:space-y-10">
                 {[
                   {
                     id: "automatizacion",

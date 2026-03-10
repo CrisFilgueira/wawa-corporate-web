@@ -10,21 +10,21 @@ const Contacto = () => {
         description="Parar para avanzar. Contáctanos para diseñar sistemas que te devuelvan tiempo y claridad."
         canonical="https://somoswawa.com/contacto"
       />
-      <section className="pt-32 pb-24 md:pt-40 md:pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden">
+      <section className="pt-24 pb-16 md:pt-32 md:pb-24 flex flex-col justify-center overflow-hidden min-h-[90vh]">
         <div className="container h-full">
-          <div className="grid md:grid-cols-12 gap-12 lg:gap-24 items-center md:items-stretch h-full">
-            <div className="md:col-span-5 order-2 md:order-1 md:pt-8 flex flex-col justify-between h-full min-h-[50vh]">
+          <div className="grid md:grid-cols-12 gap-8 lg:gap-16 items-center md:items-stretch h-full">
+            <div className="md:col-span-5 order-2 md:order-1 pt-4 md:pt-12 flex flex-col justify-center h-full pb-8 md:pb-0">
               <div>
-                <h1 className="text-4xl sm:text-5xl md:text-7xl font-display font-medium tracking-tight leading-[0.9] animate-fade-up">
+                <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-display font-medium tracking-tight leading-[0.9] animate-fade-up">
                   Todo empieza<br />con una<br />conversación.
                 </h1>
-                <p className="text-3xl md:text-5xl font-serif mt-12 animate-fade-up animation-delay-100 text-muted-foreground font-medium">
+                <p className="text-2xl md:text-4xl font-serif mt-6 md:mt-10 animate-fade-up animation-delay-100 text-muted-foreground font-medium">
                   ¡Hablemos!
                 </p>
               </div>
 
-              <div className="space-y-8 animate-fade-up animation-delay-200 mt-16 md:mt-32">
-                <p className="text-base md:text-lg leading-relaxed text-muted-foreground  max-w-none pr-8">
+              <div className="space-y-6 animate-fade-up animation-delay-200 mt-8 md:mt-12">
+                <p className="text-base md:text-lg leading-relaxed text-muted-foreground max-w-none pr-4 md:pr-8">
                   Si necesitas recuperar tiempo y foco para hacer crecer tu negocio, contacta con nosotros en el correo {' '}
                   <a href="mailto:hola@somoswawa.com" className="text-foreground underline underline-offset-4 hover:opacity-70 transition-opacity">
                     hola@somoswawa.com
@@ -41,7 +41,7 @@ const Contacto = () => {
               </div>
             </div>
 
-            <div className="md:col-span-7 order-1 md:order-2 relative w-full h-[50vh] md:h-auto min-h-[500px] md:min-h-[700px] lg:min-h-[800px] flex items-stretch justify-center md:justify-end">
+            <div className="md:col-span-7 order-1 md:order-2 relative w-full h-[40vh] md:h-full min-h-[300px] flex items-stretch justify-center md:justify-end">
               <style>{`
                 @keyframes expandWidth {
                   0% { width: 0; }
