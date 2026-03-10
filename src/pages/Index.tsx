@@ -107,7 +107,7 @@ const Index = () => {
               Estudio de Automatizaciones, IA & Gestión Operativa
             </h1>
             <h2 className="text-[52px] sm:text-[60px] md:text-[70px] lg:text-[76px] xl:text-[84px] font-display font-medium tracking-tight leading-[0.85] text-white uppercase max-w-3xl -ml-1">
-              Escala tu negocio<br className="hidden md:block" /> sin aumentar<br className="hidden md:block" /> la<br className="hidden md:block" /> complejidad
+              Escala tu<br className="hidden md:block" /> negocio sin<br className="hidden md:block" /> aumentar la<br className="hidden md:block" /> complejidad
             </h2>
           </div>
 
@@ -115,11 +115,11 @@ const Index = () => {
             <div className="hidden md:block md:col-span-8"></div>
             {/* Bottom/Footer content of Hero */}
             <div className="md:col-span-4 flex flex-col justify-end space-y-4 animate-fade-up animation-delay-200 lg:pl-10">
-              <div className="w-6 md:w-8 h-[1px] bg-white/70 mb-1" />
-              <p className="text-[11px] md:text-xs uppercase tracking-[0.2em] font-sans font-medium text-white/90">
+              <div className="w-6 md:w-8 h-[1px] bg-white mb-1" />
+              <p className="text-[11px] md:text-xs uppercase tracking-[0.2em] font-sans font-medium text-white">
                 Somos Wawa
               </p>
-              <p className="text-sm md:text-[15px] leading-relaxed font-sans font-light text-white/90">
+              <p className="text-sm md:text-[15px] leading-relaxed font-sans font-light text-white">
                 En Wawa diseñamos e implementamos sistemas de automatización e IA que absorben el crecimiento de tu negocio: ventas, operaciones y soporte, para que puedas escalar sin depender de tareas manuales ni añadir fricción operativa.
               </p>
             </div>
@@ -135,7 +135,7 @@ const Index = () => {
               <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight text-foreground mb-12 text-balance">
                 Escalar sin sistema multiplica complejidad.
               </h2>
-              <div className="space-y-6 text-foreground/80 max-w-2xl mx-auto flex flex-col items-start px-4 md:px-0">
+              <div className="space-y-6 text-foreground/80 max-w-4xl mx-auto flex flex-col items-start px-4 md:px-0">
                 <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
                 <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pt-2 text-left">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
                 <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide pb-4 text-left">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
@@ -173,7 +173,7 @@ const Index = () => {
       </section>
 
       {/* Transición: Tiempo, Claridad y Enfoque */}
-      <section className="w-full bg-background border-b border-border/40 overflow-hidden relative z-10">
+      <section className="w-full bg-background overflow-hidden relative z-10">
         <AnimatedKeyWords />
       </section>
 
@@ -238,7 +238,7 @@ const Index = () => {
             <div className="w-full max-w-xl flex flex-col justify-center h-full">
               <div className="mb-12">
                 <h2 className="text-lg uppercase tracking-[0.2em] font-sans font-light text-white mb-4">Servicios</h2>
-                <div className="w-full h-0.5 bg-white/40" />
+                <div className="w-full h-0.5 bg-white" />
               </div>
 
               <Accordion type="single" collapsible className="w-full flex flex-col space-y-6 md:space-y-8 lg:space-y-10">
@@ -290,11 +290,11 @@ const Index = () => {
                         </div>
                       </div>
                     </AccordionTrigger>
-                    <AccordionContent className="text-white text-base md:text-lg leading-relaxed font-sans font-light opacity-80 tracking-wide text-balance pt-6 pb-2 max-w-3xl">
-                      <div className="mb-8 font-light">{service.desc}</div>
+                    <AccordionContent className="text-white text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-balance pt-6 pb-2 max-w-3xl">
+                      <div className="mb-8 font-light text-white">{service.desc}</div>
                       <Link
                         to="/servicios"
-                        className="inline-flex items-center text-[11px] md:text-xs uppercase tracking-widest font-light text-white/80 border-b border-white/30 pb-0.5 hover:border-white transition-colors"
+                        className="inline-flex items-center text-[11px] md:text-xs uppercase tracking-widest font-light text-white border-b border-white/30 pb-0.5 hover:border-white transition-colors"
                       >
                         Descubrir más
                       </Link>
