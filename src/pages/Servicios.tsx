@@ -39,7 +39,7 @@ const Servicios = () => {
           </div>
         </div>
       </section>      {/* Services Accordion */}
-      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-2 md:pt-8">
+      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-16 md:pt-32">
         <div className="w-full max-w-[94%] mx-auto">
           <Accordion type="single" collapsible className="space-y-0 w-full px-4 md:px-0">
 

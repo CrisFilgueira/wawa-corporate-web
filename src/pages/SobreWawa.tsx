@@ -37,7 +37,7 @@ const SobreWawa = () => {
       </section>
 
       {/* Por qué nace Wawa */}
-      <section className="pt-16 pb-24 md:pt-24 md:pb-32">
+      <section className="pt-16 pb-24 md:pt-32 md:pb-32">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
