@@ -339,22 +339,22 @@ const Servicios = () => {
 
       {/* Lo que conecta todos nuestros servicios */}
       <section className="py-[var(--space-section-mobile)] md:py-[var(--space-section-desktop)] bg-subtle">
-        <div className="container max-w-3xl">
-          <div className="max-w-4xl mx-auto flex flex-col items-start px-4 md:px-8">
+        <div className="container max-w-5xl">
+          <div className="max-w-5xl mx-auto flex flex-col items-start px-4 md:px-8">
             <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-left text-balance" style={{ animationFillMode: "forwards" }}>
               Lo que conecta todos nuestros servicios
             </h2>
             <div className="space-y-6 md:space-y-8 flex flex-col items-start text-left w-full">
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground text-pretty">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground">
                 En WAWA todo responde a un mismo principio: El crecimiento sostenible requiere arquitectura.
               </p>
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground text-pretty">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground">
                 No implementamos tecnología de forma aislada. Diseñamos sistemas donde automatización, datos e inteligencia artificial trabajan como una estructura integrada.
               </p>
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground text-pretty">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground">
                 Conectamos procesos clave, estructuramos el ciclo comercial y operativo, y desplegamos sistemas preparados para absorber más volumen sin multiplicar complejidad.
               </p>
-              <p className="text-base md:text-lg leading-relaxed font-sans font-medium tracking-wide text-foreground text-pretty mt-8 border-l border-foreground/30 pl-4">
+              <p className="text-base md:text-lg leading-relaxed font-sans font-medium tracking-wide text-foreground mt-8 border-l border-foreground/30 pl-4 w-full">
                 No añadimos herramientas. Rediseñamos el sistema que sostiene tu crecimiento.
               </p>
               <div className="pt-12 md:pt-16 text-left w-full">

@@ -285,13 +285,13 @@ const Index = () => {
                           {service.title}
                         </span>
                         <div className="flex shrink-0 mt-1">
-                          <Plus className="w-8 h-8 md:w-12 md:h-12 text-white transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={1.5} />
-                          <Minus className="w-8 h-8 md:w-12 md:h-12 text-white transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={1.5} />
+                          <Plus className="w-8 h-8 md:w-12 md:h-12 text-white transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
+                          <Minus className="w-8 h-8 md:w-12 md:h-12 text-white transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
                         </div>
                       </div>
                     </AccordionTrigger>
-                    <AccordionContent className="text-white text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-balance pt-6 pb-2 max-w-3xl">
-                      <div className="mb-8 font-light text-white/80 [&_*]:font-light" style={{ fontWeight: 300 }}>{service.desc}</div>
+                    <AccordionContent className="text-white/80 text-base md:text-lg leading-relaxed font-sans font-extralight tracking-wide text-balance pt-6 pb-2 max-w-3xl">
+                      <div className="mb-8 font-extralight text-white/80 [&_*]:font-extralight" style={{ fontWeight: 200, WebkitFontSmoothing: "auto" }}>{service.desc}</div>
                       <Link
                         to="/servicios"
                         className="inline-flex items-center text-[11px] md:text-xs uppercase tracking-widest font-light text-white border-b border-white/30 pb-0.5 hover:border-white transition-colors"
