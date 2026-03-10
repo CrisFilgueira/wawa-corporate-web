@@ -136,31 +136,31 @@ const Index = () => {
                 Escalar sin sistema multiplica complejidad
               </h2>
               <div className="space-y-6 md:space-y-8 text-foreground/80 max-w-5xl flex flex-col items-start px-4 md:px-0">
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left w-full">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pt-2 w-full">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
-                <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-left pb-4 w-full">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
+                <p className="text-base leading-relaxed font-sans font-light tracking-wide text-left w-full">El crecimiento no solo implica vender más. Implica que cada nuevo cliente, proceso o herramienta encaje dentro de una estructura diseñada para soportarlo.</p>
+                <p className="text-base leading-relaxed font-sans font-light tracking-wide text-left pt-2 w-full">Cuando el volumen aumenta sin arquitectura, la operación se vuelve más pesada, más manual y menos predecible.</p>
+                <p className="text-base leading-relaxed font-sans font-light tracking-wide text-left pb-4 w-full">El objetivo no es evitar el caos. Es diseñar un sistema que permita crecer sin generarlo.</p>
               </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-x-12 gap-y-8 mt-12">
-              <ul className="space-y-8 text-base md:text-lg leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
+              <ul className="space-y-8 text-base leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
                   <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">01</span>
-                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Gestión de leads estructurada:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Cada oportunidad sigue un flujo definido, sin pérdidas ni cuellos de botella manuales.</span></span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base">Gestión de leads estructurada:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Cada oportunidad sigue un flujo definido, sin pérdidas ni cuellos de botella manuales.</span></span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">02</span>
-                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Procesos preparados para escalar:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Las tareas operativas no crecen al mismo ritmo que las ventas.</span></span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base">Procesos preparados para escalar:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Las tareas operativas no crecen al mismo ritmo que las ventas.</span></span>
                 </li>
               </ul>
-              <ul className="space-y-8 text-base md:text-lg leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
+              <ul className="space-y-8 text-base leading-relaxed font-sans font-light text-foreground/80 list-none p-0">
                 <li className="flex items-start gap-4">
                   <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">03</span>
-                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Facturación y onboarding integrados:</strong> <span className="text-sm md:text-base font-light text-foreground/80">La entrada de nuevos clientes activa automáticamente la operación.</span></span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base">Facturación y onboarding integrados:</strong> <span className="text-sm md:text-base font-light text-foreground/80">La entrada de nuevos clientes activa automáticamente la operación.</span></span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="text-base font-bold mt-1.5 opacity-40 uppercase tracking-widest">04</span>
-                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base md:text-lg">Información unificada:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Los datos fluyen entre áreas sin fricción ni duplicidades.</span></span>
+                  <span className="leading-relaxed"><strong className="font-semibold text-foreground text-base">Información unificada:</strong> <span className="text-sm md:text-base font-light text-foreground/80">Los datos fluyen entre áreas sin fricción ni duplicidades.</span></span>
                 </li>
               </ul>
             </div>
@@ -186,18 +186,18 @@ const Index = () => {
                 Rediseñamos la arquitectura de tu crecimiento
               </h2>
 
-              <ul className="space-y-6 text-base md:text-lg leading-relaxed font-sans text-foreground/80 border-l px-6 border-black/10 text-balance list-none py-2 pb-8">
+              <ul className="space-y-6 text-base leading-relaxed font-sans text-foreground/80 border-l px-6 border-black/10 text-balance list-none py-2 pb-8">
                 <li className="space-y-1">
                   <strong className="text-foreground font-medium block">Automatizamos el ciclo comercial y operativo.</strong>
-                  <span className="text-base md:text-lg leading-relaxed font-light opacity-80 block pt-1">Integramos cada paso del cliente, desde la captación y atención al lead hasta el cierre.</span>
+                  <span className="text-base leading-relaxed font-light opacity-80 block pt-1">Integramos cada paso del cliente, desde la captación y atención al lead hasta el cierre.</span>
                 </li>
                 <li className="space-y-1 mt-6">
                   <strong className="text-foreground font-medium block">Implementamos sistemas autónomos.</strong>
-                  <span className="text-base md:text-lg leading-relaxed font-light opacity-80 block pt-1">La tecnología ejecuta el volumen; tú supervisas la estrategia.</span>
+                  <span className="text-base leading-relaxed font-light opacity-80 block pt-1">La tecnología ejecuta el volumen; tú supervisas la estrategia.</span>
                 </li>
               </ul>
 
-              <p className="text-base md:text-lg leading-relaxed font-sans font-light tracking-wide text-foreground/90 text-balance mt-4">
+              <p className="text-base leading-relaxed font-sans font-light tracking-wide text-foreground/90 text-balance mt-4">
                 <strong className="font-medium">Resultado:</strong> un negocio digital preparado para aumentar volumen sin que la complejidad interna crezca al mismo ritmo.
               </p>
             </div>
@@ -290,7 +290,7 @@ const Index = () => {
                         </div>
                       </div>
                     </AccordionTrigger>
-                    <AccordionContent className="text-white/80 text-base md:text-lg leading-relaxed font-sans font-extralight tracking-wide text-balance pt-6 pb-2 max-w-3xl">
+                    <AccordionContent className="text-white/80 text-base leading-relaxed font-sans font-extralight tracking-wide text-balance pt-6 pb-2 max-w-3xl">
                       <div className="mb-8 font-extralight text-white/80 [&_*]:font-extralight" style={{ fontWeight: 200, WebkitFontSmoothing: "auto" }}>{service.desc}</div>
                       <Link
                         to="/servicios"

@@ -45,7 +45,7 @@ const SobreWawa = () => {
                 Por qué nace Wawa
               </h1>
             </div>
-            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-4 text-base md:text-lg leading-relaxed text-foreground font-light [&_*]:font-light animate-fade-up animation-delay-200 text-balance">
+            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light animate-fade-up animation-delay-200 text-balance">
               <p>
                 WAWA nace de una observación clara:<br />Muchos negocios digitales crecen más rápido de lo que su estructura puede sostener. Aumentan ventas, equipo y herramientas, pero sin un sistema diseñado para absorber ese crecimiento. El resultado no es expansión. Es complejidad.
               </p>
@@ -66,7 +66,7 @@ const SobreWawa = () => {
                 Significado de Wa
               </h2>
             </div>
-            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-4 text-base md:text-lg leading-relaxed text-foreground font-light [&_*]:font-light">
+            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light">
               <p>
                 En la cultura japonesa, wa es un concepto fundamental que se traduce comúnmente como armonía. Sin embargo, su significado va más allá.
               </p>
@@ -97,7 +97,7 @@ const SobreWawa = () => {
               </h2>
             </div>
             <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-12">
-              <div className="space-y-4 text-base md:text-lg leading-relaxed text-foreground font-light [&_*]:font-light mb-16">
+              <div className="space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light mb-16">
                 <p>
                   Wawa no es una agencia con procesos rígidos. Es un estudio que se adapta a ti.
                 </p>
@@ -118,7 +118,7 @@ const SobreWawa = () => {
                 <AccordionItem value="escucha" className="border-b border-black py-4">
                   <AccordionTrigger className="hover:no-underline py-4 group">
                     <div className="flex items-center justify-between w-full text-left">
-                      <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium uppercase tracking-wide">01. ESCUCHA</h4>
+                      <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">01. ESCUCHA</h4>
                       <div className="flex shrink-0 ml-4">
                         <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
                         <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
@@ -126,7 +126,7 @@ const SobreWawa = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-6">
-                    <div className="space-y-4 text-base md:text-lg leading-relaxed text-foreground font-light [&_*]:font-light">
+                    <div className="space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light">
                       <p>
                         El primer paso es entenderte.
                       </p>
@@ -147,7 +147,7 @@ const SobreWawa = () => {
                 <AccordionItem value="estrategia" className="border-b border-black py-4">
                   <AccordionTrigger className="hover:no-underline py-4 group">
                     <div className="flex items-center justify-between w-full text-left">
-                      <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium uppercase tracking-wide">02. ESTRATEGIA</h4>
+                      <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">02. ESTRATEGIA</h4>
                       <div className="flex shrink-0 ml-4">
                         <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
                         <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
@@ -155,7 +155,7 @@ const SobreWawa = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-6">
-                    <div className="space-y-4 text-base md:text-lg leading-relaxed text-foreground font-light [&_*]:font-light">
+                    <div className="space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light">
                       <p>
                         Con toda la información, diseñamos una propuesta personalizada con objetivos claros que incluye:
                       </p>
@@ -176,7 +176,7 @@ const SobreWawa = () => {
                 <AccordionItem value="implementacion" className="border-b border-black py-4">
                   <AccordionTrigger className="hover:no-underline py-4 group">
                     <div className="flex items-center justify-between w-full text-left">
-                      <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium uppercase tracking-wide">03. IMPLEMENTACIÓN</h4>
+                      <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">03. IMPLEMENTACIÓN</h4>
                       <div className="flex shrink-0 ml-4">
                         <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
                         <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
@@ -184,7 +184,7 @@ const SobreWawa = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-6">
-                    <div className="space-y-4 text-base md:text-lg leading-relaxed text-foreground font-light [&_*]:font-light">
+                    <div className="space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light">
                       <p>
                         Una vez aprobada la propuesta, nos ponemos a trabajar.
                       </p>
@@ -205,7 +205,7 @@ const SobreWawa = () => {
                 <AccordionItem value="acompanamiento" className="border-b border-black py-4">
                   <AccordionTrigger className="hover:no-underline py-4 group">
                     <div className="flex items-center justify-between w-full text-left">
-                      <h4 className="text-base md:text-lg leading-relaxed font-sans font-medium uppercase tracking-wide">04. ACOMPAÑAMIENTO</h4>
+                      <h4 className="text-base leading-relaxed font-sans font-medium uppercase tracking-wide">04. ACOMPAÑAMIENTO</h4>
                       <div className="flex shrink-0 ml-4">
                         <Plus className="w-6 h-6 text-black transition-all duration-300 group-data-[state=open]:hidden" strokeWidth={2.5} />
                         <Minus className="w-6 h-6 text-black transition-all duration-300 hidden group-data-[state=open]:block" strokeWidth={2.5} />
@@ -213,7 +213,7 @@ const SobreWawa = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-6">
-                    <div className="space-y-4 text-base md:text-lg leading-relaxed text-foreground font-light [&_*]:font-light">
+                    <div className="space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light">
                       <p>
                         No desaparecemos después de entregar.
                       </p>
@@ -244,19 +244,19 @@ const SobreWawa = () => {
             <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-8 pt-1 md:pt-2">
               <div>
                 <h3 className="text-xl md:text-2xl font-sans mb-4">SINCRONIZACIÓN</h3>
-                <p className="text-base md:text-lg leading-relaxed text-foreground font-light">
+                <p className="text-base leading-relaxed text-foreground font-light">
                   Equilibrio entre tecnología y humanidad. Que tus herramientas hablen el mismo idioma para que tu operativa fluya sin fricción.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl md:text-2xl font-sans mb-4">ARQUITECTURA DE DATOS</h3>
-                <p className="text-base md:text-lg leading-relaxed text-foreground font-light">
+                <p className="text-base leading-relaxed text-foreground font-light">
                   Información accesible, no dispersa. Estructuramos tus datos para que tomes decisiones basadas en hechos, no en intuiciones.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl md:text-2xl font-sans mb-4">ACOMPAÑAMIENTO</h3>
-                <p className="text-base md:text-lg leading-relaxed text-foreground font-light">
+                <p className="text-base leading-relaxed text-foreground font-light">
                   No trabajamos desde fuera. Nos integramos en tu estructura para comprender cómo funciona y qué necesita.
                 </p>
               </div>
