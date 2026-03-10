@@ -68,7 +68,7 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 [&_*]:font-light">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Automatizamos las tareas repetitivas de tu negocio, ahorrando tiempo, dinero y recursos. Usamos herramientas como n8n para crear flujos de trabajo eficientes y personalizados, adaptados a tus necesidades.
                     </p>
@@ -121,7 +121,7 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 [&_*]:font-light">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Creamos chatbots con inteligencia artificial que se integran en tu web, tu app o tus plataformas de mensajería como el correo electrónico o Whatsapp. No son bots rígidos con respuestas prefijadas. Son conversaciones naturales, automatizadas e inteligentes que atienden a tus clientes 24/7. Responden consultas. Ofrecen información. Realizan acciones. Generan contenido. Todo sin que tú tengas que estar disponible.
                     </p>
@@ -176,7 +176,7 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 [&_*]:font-light">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Diseñamos experiencias digitales con estrategia que transmitan quién eres, qué haces y por qué eres la opción correcta.
                     </p>
@@ -308,7 +308,7 @@ const Servicios = () => {
               <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 [&_*]:font-light">
                     <p className="text-base md:text-lg leading-relaxed font-sans font-light text-black ">
                       Nos ocupamos de la organización, coordinación y ejecución de tareas clave para que la operativa diaria de tu negocio avance sin fricción.
                     </p>
