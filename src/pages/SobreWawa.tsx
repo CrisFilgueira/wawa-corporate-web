@@ -21,8 +21,8 @@ const SobreWawa = () => {
       <Header />
 
       {/* Hero Image Banner */}
-      <section className="pt-32 pb-12 md:pt-40 md:pb-20">
-        <div className="w-full max-w-[94%] mx-auto border-b border-border/40 pb-12 md:pb-20">
+      <section className="pt-32 pb-4 md:pt-40 md:pb-8">
+        <div className="w-full max-w-[94%] mx-auto">
           <div className="w-full overflow-hidden rounded-2xl animate-fade-up opacity-0 aspect-[16/9] md:aspect-[21/9] relative group" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
             <img
               src={sobreWawaImage}
@@ -37,7 +37,7 @@ const SobreWawa = () => {
       </section>
 
       {/* Por qué nace Wawa */}
-      <section className="pt-12 pb-24 md:py-32">
+      <section className="pt-8 pb-24 md:pt-12 md:pb-32">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">

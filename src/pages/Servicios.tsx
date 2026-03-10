@@ -25,8 +25,8 @@ const Servicios = () => {
       <h1 className="sr-only">Servicios de Automatización e Inteligencia Artificial</h1>
 
       {/* Hero Image Banner */}
-      <section className="pt-32 pb-12 md:pt-40 md:pb-20">
-        <div className="w-full max-w-[94%] mx-auto border-b border-border/40 pb-12 md:pb-20">
+      <section className="pt-32 pb-4 md:pt-40 md:pb-8">
+        <div className="w-full max-w-[94%] mx-auto">
           <div className="w-full overflow-hidden rounded-2xl animate-fade-up opacity-0 aspect-[16/9] md:aspect-[21/9] relative group" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
             <img
               src={serviciosImage}
@@ -39,7 +39,7 @@ const Servicios = () => {
           </div>
         </div>
       </section>      {/* Services Accordion */}
-      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-6 md:pt-10">
+      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-2 md:pt-8">
         <div className="w-full max-w-[94%] mx-auto">
           <Accordion type="single" collapsible className="space-y-0 w-full border-t border-black">
 
