@@ -238,7 +238,8 @@ const Index = () => {
             <img
               src={home1}
               alt="Consultoría de IA y automatización en Wawa"
-              className="w-full h-full object-cover grayscale brightness-75 object-bottom"
+              className="w-full h-full object-cover grayscale brightness-75"
+              style={{ objectPosition: 'center 30%' }}
               loading="lazy"
             />
           </div>
