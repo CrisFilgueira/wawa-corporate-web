@@ -45,7 +45,7 @@ const SobreWawa = () => {
                 Por qué nace Wawa
               </h1>
             </div>
-            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light animate-fade-up animation-delay-200 text-balance">
+            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-4 text-base leading-relaxed text-foreground font-light [&_*]:font-light animate-fade-up animation-delay-200 text-balance lg:pt-3">
               <p>
                 WAWA nace de una observación clara:<br />Muchos negocios digitales crecen más rápido de lo que su estructura puede sostener. Aumentan ventas, equipo y herramientas, pero sin un sistema diseñado para absorber ese crecimiento. El resultado no es expansión. Es complejidad.
               </p>

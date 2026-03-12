@@ -41,7 +41,7 @@ const Contacto = () => {
               </div>
             </div>
 
-            <div className="md:col-span-12 lg:col-span-6 lg:col-start-7 relative w-full h-[50vh] md:h-[60vh] lg:h-[75vh] flex items-stretch justify-end mt-12 lg:mt-0">
+            <div className="md:col-span-12 lg:col-span-6 lg:col-start-7 relative w-full h-[50vh] md:h-[60vh] lg:h-[75vh] flex items-stretch justify-end mt-8 lg:mt-0">
               <style>{`
                 @keyframes expandWidth {
                   0% { width: 0; }
