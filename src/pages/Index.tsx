@@ -239,7 +239,7 @@ const Index = () => {
               src={home1}
               alt="Consultoría de IA y automatización en Wawa"
               className="w-full h-full object-cover grayscale brightness-75"
-              style={{ objectPosition: 'center 55%' }}
+              style={{ objectPosition: 'center 45%' }}
               loading="lazy"
             />
           </div>

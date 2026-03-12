@@ -305,7 +305,7 @@ const Servicios = () => {
                   </div>
                 </div>
               </AccordionTrigger>
-              <AccordionContent className="pt-6">
+              <AccordionContent className="pt-6 pb-2">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
                   <div className="space-y-6">

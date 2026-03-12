@@ -241,7 +241,7 @@ const SobreWawa = () => {
                 En qué creemos
               </h2>
             </div>
-            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-8 pt-1 md:pt-2">
+            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 space-y-4 pt-1 md:pt-2">
               <div>
                 <h3 className="text-xl md:text-2xl font-sans mb-4">SINCRONIZACIÓN</h3>
                 <p className="text-base leading-relaxed text-foreground font-light">

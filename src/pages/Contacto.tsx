@@ -31,8 +31,8 @@ const Contacto = () => {
                   </a>{' '}
                   <span className="inline-block md:inline font-light">o a través de Instagram:</span>{' '}
                   <a href="https://instagram.com/wawa.studio.ia" target="_blank" rel="noopener noreferrer" className="text-foreground font-light underline underline-offset-4 hover:opacity-70 transition-opacity">
-                    @wawa.studio.ia.
-                  </a>
+                    @wawa.studio.ia
+                  </a>.
                 </p>
 
                 <p className="text-base leading-relaxed font-medium text-foreground mt-4">
