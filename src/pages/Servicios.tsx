@@ -39,9 +39,9 @@ const Servicios = () => {
           </div>
         </div>
       </section>      {/* Services Accordion */}
-      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-0 md:pt-0 mt-2 md:mt-8 relative z-10">
+      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-6 md:pt-10 relative z-10">
         <div className="w-full max-w-[94%] mx-auto">
-          <Accordion type="single" collapsible className="space-y-0 w-full px-4 md:px-0">
+          <Accordion type="single" collapsible className="space-y-0 w-full px-4 md:px-0 border-t border-black">
 
             {/* Service 1: AUTOMATIZACIÓN */}
             <AccordionItem value="automatizaciones" className="border-b border-black py-12">
@@ -284,7 +284,7 @@ const Servicios = () => {
             </AccordionItem>
 
             {/* Service 4: GESTIÓN OPERATIVA */}
-            <AccordionItem value="apoyo-operativo" className="border-none py-12">
+            <AccordionItem value="apoyo-operativo" className="border-b-0 py-12">
               <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
