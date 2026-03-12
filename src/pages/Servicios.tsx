@@ -338,7 +338,7 @@ const Servicios = () => {
       </section>
 
       {/* Lo que conecta todos nuestros servicios */}
-      <section className="pb-[var(--space-section-mobile)] pt-16 md:pb-[var(--space-section-desktop)] md:pt-24 bg-subtle">
+      <section className="pb-[var(--space-section-mobile)] pt-8 md:pb-[var(--space-section-desktop)] md:pt-24 bg-subtle">
         <div className="w-full max-w-[94%] mx-auto">
           <div className="max-w-4xl flex flex-col items-start pr-4 md:pr-0">
             <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-left text-balance" style={{ animationFillMode: "forwards" }}>

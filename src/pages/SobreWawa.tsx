@@ -37,7 +37,7 @@ const SobreWawa = () => {
       </section>
 
       {/* Por qué nace Wawa */}
-      <section className="pt-6 pb-24 md:pt-10 md:pb-32">
+      <section className="pt-6 pb-12 md:pt-10 md:pb-32">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
@@ -58,7 +58,7 @@ const SobreWawa = () => {
       </section>
 
       {/* El significado de Wa */}
-      <section className="py-24 md:py-32 border-t border-border/50">
+      <section className="py-12 md:py-32 border-t border-border/50">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
@@ -88,7 +88,7 @@ const SobreWawa = () => {
       </section>
 
       {/* Nuestra forma de trabajar */}
-      <section className="py-24 md:py-32 bg-subtle">
+      <section className="py-12 md:py-32 bg-subtle">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
@@ -109,7 +109,7 @@ const SobreWawa = () => {
                 </p>
               </div>
 
-              <h3 className="text-xl md:text-2xl font-sans font-normal mb-12 animate-fade-up opacity-0" style={{ animationFillMode: 'forwards' }}>
+              <h3 className="text-xl md:text-2xl font-sans font-normal mb-8 md:mb-12 animate-fade-up opacity-0" style={{ animationFillMode: 'forwards' }}>
                 NUESTRO PROCESO
               </h3>
 
@@ -233,11 +233,11 @@ const SobreWawa = () => {
       </section >
 
       {/* En qué creemos */}
-      <section className="py-24 md:py-32">
+      <section className="py-12 md:py-32">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
-              <h2 className="text-4xl md:text-6xl font-sans mb-8 md:mb-0 animate-fade-up opacity-0" style={{ animationFillMode: 'forwards' }}>
+              <h2 className="text-4xl md:text-6xl font-sans mb-4 md:mb-0 animate-fade-up opacity-0" style={{ animationFillMode: 'forwards' }}>
                 En qué creemos
               </h2>
             </div>
