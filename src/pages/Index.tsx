@@ -21,7 +21,7 @@ const AnimatedKeyWords = () => {
 
   return (
     <div
-      className="container max-w-5xl mx-auto px-6 pt-16 pb-12 md:pt-32 md:pb-16 flex flex-col justify-center"
+      className="container max-w-5xl mx-auto px-6 pt-16 pb-4 md:pt-32 md:pb-8 flex flex-col justify-center"
       aria-label="Tiempo, Claridad y Enfoque"
     >
       {/* TIEMPO */}
@@ -178,7 +178,7 @@ const Index = () => {
       </section>
 
       {/* Solución */}
-      <section className="w-full pt-16 md:pt-24 pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)]">
+      <section className="w-full pt-8 md:pt-12 pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)]">
         <div className="grid md:grid-cols-2 w-full items-center">
           <div className="flex flex-col justify-center p-6 md:p-24 lg:p-32 order-2 md:order-1">
             <div className="max-w-xl mx-auto space-y-8">
@@ -239,7 +239,7 @@ const Index = () => {
               src={home1}
               alt="Consultoría de IA y automatización en Wawa"
               className="w-full h-full object-cover grayscale brightness-75"
-              style={{ objectPosition: 'center 30%' }}
+              style={{ objectPosition: 'center 35%' }}
               loading="lazy"
             />
           </div>
