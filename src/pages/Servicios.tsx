@@ -284,7 +284,7 @@ const Servicios = () => {
             </AccordionItem>
 
             {/* Service 4: GESTIÓN OPERATIVA */}
-            <AccordionItem value="apoyo-operativo" className="border-b-0 pt-12 pb-4 md:py-12">
+            <AccordionItem value="apoyo-operativo" className="border-b-0 py-12">
               <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
@@ -305,7 +305,7 @@ const Servicios = () => {
                   </div>
                 </div>
               </AccordionTrigger>
-              <AccordionContent className="pt-6 pb-2">
+              <AccordionContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="hidden md:block"></div>
                   <div className="space-y-6">
@@ -338,7 +338,7 @@ const Servicios = () => {
       </section>
 
       {/* Lo que conecta todos nuestros servicios */}
-      <section className="pb-[var(--space-section-mobile)] pt-16 md:pb-[var(--space-section-desktop)] md:pt-24 bg-subtle">
+      <section className="pb-[var(--space-section-mobile)] pt-12 md:pb-[var(--space-section-desktop)] md:pt-24 bg-subtle">
         <div className="w-full max-w-[94%] mx-auto">
           <div className="max-w-4xl flex flex-col items-start pr-4 md:pr-0">
             <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-left text-balance" style={{ animationFillMode: "forwards" }}>
