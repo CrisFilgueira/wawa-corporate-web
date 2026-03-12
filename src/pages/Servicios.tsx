@@ -38,8 +38,9 @@ const Servicios = () => {
             <div className="absolute inset-0 bg-[#FFF5E6]/10 mix-blend-overlay pointer-events-none" />
           </div>
         </div>
-      </section>      {/* Services Accordion */}
-      <section className="pb-[var(--space-section-mobile)] md:pb-[var(--space-section-desktop)] pt-6 md:pt-10 relative z-10">
+      </section>
+      {/* Services Accordion */}
+      <section className="pb-4 md:pb-8 pt-6 md:pt-10 relative z-10">
         <div className="w-full max-w-[94%] mx-auto">
           <Accordion type="single" collapsible className="space-y-0 w-full px-4 md:px-0 border-t border-black">
 
@@ -284,7 +285,7 @@ const Servicios = () => {
             </AccordionItem>
 
             {/* Service 4: GESTIÓN OPERATIVA */}
-            <AccordionItem value="apoyo-operativo" className="border-b-0 py-12">
+            <AccordionItem value="apoyo-operativo" className="border-b-0 pt-8 pb-1 md:pt-12 md:pb-2">
               <AccordionTrigger className="hover:no-underline hover:opacity-100 py-4 group">
                 <div className="flex items-start md:items-center justify-between w-full text-left">
                   <div className="flex flex-col gap-4 w-full">
@@ -338,7 +339,7 @@ const Servicios = () => {
       </section>
 
       {/* Lo que conecta todos nuestros servicios */}
-      <section className="pb-[var(--space-section-mobile)] pt-12 md:pb-[var(--space-section-desktop)] md:pt-24 bg-subtle">
+      <section className="pb-[var(--space-section-mobile)] pt-24 md:pb-[var(--space-section-desktop)] md:pt-40 bg-subtle">
         <div className="w-full max-w-[94%] mx-auto">
           <div className="max-w-4xl flex flex-col items-start pr-4 md:pr-0">
             <h2 className="text-3xl md:text-5xl font-display font-medium leading-[1.2] text-foreground/90 mb-10 md:mb-16 animate-fade-up opacity-0 text-left text-balance" style={{ animationFillMode: "forwards" }}>

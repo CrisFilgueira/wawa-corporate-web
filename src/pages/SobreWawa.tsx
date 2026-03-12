@@ -41,7 +41,7 @@ const SobreWawa = () => {
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
-              <h1 className="text-5xl md:text-8xl font-display font-medium tracking-tight animate-fade-up">
+              <h1 className="text-5xl md:text-8xl font-display font-medium tracking-tight leading-[0.85] animate-fade-up">
                 Por qué nace Wawa
               </h1>
             </div>
@@ -62,7 +62,7 @@ const SobreWawa = () => {
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
-              <h2 className="text-5xl md:text-8xl font-display font-medium animate-fade-up opacity-0 tracking-tight" style={{ animationFillMode: 'forwards' }}>
+              <h2 className="text-5xl md:text-8xl font-display font-medium animate-fade-up opacity-0 tracking-tight leading-[0.85]" style={{ animationFillMode: 'forwards' }}>
                 Significado de Wa
               </h2>
             </div>
@@ -88,11 +88,11 @@ const SobreWawa = () => {
       </section>
 
       {/* Nuestra forma de trabajar */}
-      <section className="pt-12 pb-12 md:pt-24 md:pb-32 bg-subtle">
+      <section className="py-12 md:py-32 bg-subtle">
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-4 md:gap-12 lg:gap-8 items-start">
             <div className="md:col-span-12 lg:col-span-5">
-              <h2 className="text-4xl md:text-6xl font-sans mb-10 md:mb-0 animate-fade-up opacity-0 text-balance" style={{ animationFillMode: 'forwards' }}>
+              <h2 className="text-4xl md:text-6xl font-sans mb-10 md:mb-0 animate-fade-up opacity-0 text-balance leading-tight" style={{ animationFillMode: 'forwards' }}>
                 Nuestra forma de trabajar juntos
               </h2>
             </div>
@@ -237,7 +237,7 @@ const SobreWawa = () => {
         <div className="container max-w-6xl">
           <div className="grid md:grid-cols-12 gap-4 md:gap-12 lg:gap-8 items-start">
             <div className="md:col-span-5 lg:col-span-5">
-              <h2 className="text-4xl md:text-6xl font-sans mb-10 md:mb-0 animate-fade-up opacity-0" style={{ animationFillMode: 'forwards' }}>
+              <h2 className="text-4xl md:text-6xl font-sans mb-10 md:mb-0 animate-fade-up opacity-0 leading-tight" style={{ animationFillMode: 'forwards' }}>
                 En qué creemos
               </h2>
             </div>
